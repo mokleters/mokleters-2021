@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+h1{
+    font-weight: 700;
+}
+navbar{
+    padding: 30px 128px;
+    
+}
+navbar li{
+    margin: 0 20px;
+}
+.header{
+    font-size: 10px;
+    font-size: 18px;
+}
+.header a:hover{
+    color: rgb(119, 119, 119);
+}
+.btn-login{
+    background-color: #EB5757 !important;
+    width: 105px;
+    height: 44px;
+    left: 1207px;
+    top: 40px;
+    border: none;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.btn-login:hover{
+    background-color: #fc7e7e !important;
+}
+.subtitle{
+    margin-bottom: -18px;
+}
+.hero{
+    margin-top: 50px;
+}
+.hero p{
+    color: #828282;
+    text-align: center;
+}
+.hero h1{
+    /* width: 869px !important;
+    height: 183px !important;
+    left: 286px;
+    top: 266px; */
+    font-weight: 600;
+    font-size: 144px;
+    color: #EB5757;
+}
+.hero h1 span{
+    color:#222222;
+}
+.btn-explore{    
+width: 215px;
+height: 69px;
+left: 613px;
+top: 516px;
+background: #222222;
+border-radius: 41.5px;
+}
+.btn-explore{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    color: #ffff;
+    margin-top: 34px;
+}
+.btn-explore rounded-pill{
+    margin-top: 10px;
+}
