@@ -17,7 +17,7 @@ function Footer(){
             {/*<!-- Grid column --> */}
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             {/* <!-- Links --> */}
-            <h6 class="text-uppercase fw-bold mb-4">
+            <h6 class="fw-bold mb-5">
                 Follow Us On
             </h6>
             <p>
@@ -38,7 +38,7 @@ function Footer(){
             <!-- Grid column --> */}
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             {/* <!-- Links --> */}
-            <h6 class="text-uppercase fw-bold mb-4">
+            <h6 class="fw-bold mb-5">
                 Contact Us
             </h6>
             <p>
@@ -56,7 +56,7 @@ function Footer(){
             <!-- Grid column --> */}
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             {/* <!-- Links --> */}
-            <h6 class="text-uppercase fw-bold mb-4">
+            <h6 class="fw-bold mb-5">
                 About Us
             </h6>
             <p>
@@ -69,14 +69,13 @@ function Footer(){
             {/* <!-- Grid column --> */}
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             {/* <!-- Content --> */}
-            <h6 class="text-uppercase fw-bold mb-4">
-            Company name
+            <h6 class="fw-bold mb-5">
+            Present by:
             </h6>
-            <i class="fas fa-gem me-3"><img src={logo} className="App-logo" alt="logo" width="60%" height="20%"></img></i>
+            <i class="fas fa-gem me-3"><img src={logo} className="App-logo" alt="logo" width="50%" height="18%"></img></i>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
             </div>
             {/* <!-- Grid column -->*/}
@@ -87,10 +86,15 @@ function Footer(){
     {/* <!-- Section: Links  --> */}
 
     {/* <!-- Copyright --> */}
-    <div class="text-center p-4">
-        © 2021 Copyright : 
-        <a class="text-reset fw-bold" href="/"> Mokleters 2021 - Forever</a>
-    </div>
+    <copyright className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-5 mb-4">
+        <div className="text-reset d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark">
+          Mokleters 2021-Selamanya
+        </div>
+  
+        <div className="text-reset col-md-3 text-end">
+            <a href="/">Report</a> | <a href="/">Security & Privacy</a> | <a href="/">Terms & Use</a>
+        </div>
+      </copyright>
     {/* <!-- Copyright --> */}
     </footer>
     </div>

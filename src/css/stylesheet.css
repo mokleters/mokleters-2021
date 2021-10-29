@@ -87,3 +87,19 @@ navbar a:hover{
 .footer-all a:hover{
     color: #EB5757 !important;
 }
+.footer-all a{
+    line-height: 27px;
+}
+.footer-all .App-logo{
+    margin-bottom: 20px ;
+}
+.footer-all h6{ 
+    font-size:larger;
+    color: #333333;
+}
+copyright{
+    padding: 30px 128px;
+}
+copyright a{
+    color: #828282;
+}
