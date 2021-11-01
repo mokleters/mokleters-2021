@@ -40,12 +40,13 @@ function Landing() {
                             <h2>Yuk Kenalan!</h2>
                             <h1 class="font-weight-bold">Mengenal <span>Mokleters</span> Lebih Jauh!</h1>                
                             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <div class="kotak-mengenal row mt-5">
+                            <div class="kotak-mengenal row mt-5"> {/*==============> ICON KOTAK SOSMED MENGENAL BELUM FIX <=================*/}
                                 <div class="icon-mengenal col"><a href="/"><embed src={instagram} className="icon-social"></embed></a></div> {/*INGIN MENGGUNAKAN ICON DENGAN BOXICONS ATAU IMG ATAU?*/}
                                 <div class="icon-mengenal col"><a href="/"><embed src={youtube} className="icon-social"></embed></a></div> 
                                 <div class="icon-mengenal col"><a href="/"><embed src={twitter} className="icon-twitter"></embed></a></div> 
                                 <div class="icon-mengenal col"><a href="/"><embed src={tiktok} className="icon-tiktok"></embed></a></div> 
-                            </div>                           
+                            </div>
+                            {/* ===========> GARIS WARNA WARNI BELUM <============*/}
                         </div>
                     </div>
                     <div class="col-lg-5 mx-auto">
