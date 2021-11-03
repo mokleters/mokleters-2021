@@ -76,9 +76,13 @@ navbar a:hover{
     margin-bottom: -18px;
 }
 /* ========== FOOTER ========== */
+footer{
+    font-size: 18px;
+    padding: 100px 0;
+    background-color: #f2f2f2;
+}
 .footer-all{
-    margin-top: 70px; 
-    background-color: rgb(255, 255, 255);   
+    margin-top: 70px;   
 }
 .footer .text-center p-4{
     background-color: rgba(0, 0, 0, 0.05);
@@ -96,8 +100,13 @@ navbar a:hover{
     font-size:larger;
     color: #333333;
 }
+.footer-all img{
+    width: 170px;
+    height: auto;
+}
 copyright{
     padding: 30px 128px;
+    margin-top: 60px;
 }
 copyright a{
     color: #828282;
@@ -176,5 +185,4 @@ copyright a{
 
 /* ============== Big-img ============== */
 .big-img{
-    
 }

@@ -6,13 +6,13 @@ function Footer(){
     return(
     // <!-- Footer -->
     <div className="footer-all">
-    <footer class="text-center text-lg-start bg-light text-muted">
+    <footer class="text-center text-lg-start text-muted">
 
     {/* <!-- Section: Links  --> */}
-    <section class="">
+    <section>
         <div class="container text-center text-md-start mt-5">
         {/* <!-- Grid row --> */}
-        <div class="row mt-3">
+        <div class="isi-footer row mt-3">
 
             {/*<!-- Grid column --> */}
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -67,7 +67,7 @@ function Footer(){
             </p>
             </div>
             {/* <!-- Grid column --> */}
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <div class="col-md-3 col-lg-4 col-xl-5 mx-auto mb-4">
             {/* <!-- Content --> */}
             <h6 class="fw-bold mb-5">
             Present by:
