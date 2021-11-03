@@ -72,7 +72,7 @@ function Landing() {
                 </div>
             </div>
             <div className="big-img align-items-center justify-content-center text-center">
-                <embed src={img01} className="img-kenalan" alt="img"></embed>
+                <embed src={img01} className="img-kenalan" width="1100px" height="1100px" alt="img"></embed>
             </div>
     </div>
   );
