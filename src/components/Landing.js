@@ -1,5 +1,5 @@
 import React from 'react';
-// import img01 from './../images/01.png';
+import img01 from './../images/01.svg';
 import img02 from './../images/02.svg';
 // import img03 from './../images/03.png';
 // import img04 from './../images/04.png';
@@ -58,7 +58,7 @@ function Landing() {
                 {/* <!-- Grid row --> */}
             </div>
             <div className="landing-blog">
-            <div class="container px-4 px-lg-5 h-100">
+                <div class="container px-4 px-lg-5 h-100">
                     <div class="row gx-4 gx-lg-5 h-300 align-items-center justify-content-center text-center">
                         <div class="col-lg-10 align-self-baseline">
                         <div class="align-self-end">
@@ -70,6 +70,9 @@ function Landing() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="big-img align-items-center justify-content-center text-center">
+                <embed src={img01} className="img-kenalan" alt="img"></embed>
             </div>
     </div>
   );
