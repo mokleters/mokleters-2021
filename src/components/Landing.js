@@ -57,6 +57,20 @@ function Landing() {
                 </div>
                 {/* <!-- Grid row --> */}
             </div>
+            <div className="landing-blog">
+            <div class="container px-4 px-lg-5 h-100">
+                    <div class="row gx-4 gx-lg-5 h-300 align-items-center justify-content-center text-center">
+                        <div class="col-lg-10 align-self-baseline">
+                        <div class="align-self-end">
+                            <h1 class="font-weight-bold">Yuk lihat juga <span>blog</span> yang sudah dibuat Mokleters!</h1>
+                        </div>                    
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            
+                            <button type="button" className="btn-blog rounded-pill">Yuk Lihat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
   );
 }

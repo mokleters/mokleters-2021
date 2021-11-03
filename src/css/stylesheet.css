@@ -50,10 +50,6 @@ navbar a:hover{
     text-align: center;
 }
 .hero h1{
-    /* width: 869px !important;
-    height: 183px !important;
-    left: 286px;
-    top: 266px; */
     font-weight: 600;
     font-size: 144px;
     color: #EB5757;
@@ -152,4 +148,28 @@ copyright a{
 .icon-tiktok{
     padding-left: 6px;
     height: 80px;
+}
+
+/* ============= Landing Page - Blog ============= */
+.landing-blog h1{
+    font-weight:bolder;
+    font-size: 64px;
+    line-height: 96px;
+    color: #222222;
+}
+.landing-blog span{
+    color: #EB5757;
+}
+.landing-blog p{
+    color:#828282;
+    margin: 3px 230px;
+}
+.landing-blog .btn-blog{
+    background-color: #EB5757 !important;
+    width: 195px;
+    height: 55px;
+    border: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
 }
