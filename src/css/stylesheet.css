@@ -78,11 +78,11 @@ navbar a:hover{
 /* ========== FOOTER ========== */
 footer{
     font-size: 18px;
-    padding: 100px 0;
+    padding-top: 100px;
     background-color: #f2f2f2;
 }
 .footer-all{
-    margin-top: 70px;   
+    margin-top: 70px; 
 }
 .footer .text-center p-4{
     background-color: rgba(0, 0, 0, 0.05);

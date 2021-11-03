@@ -67,7 +67,7 @@ function Footer(){
             </p>
             </div>
             {/* <!-- Grid column --> */}
-            <div class="col-md-3 col-lg-4 col-xl-5 mx-auto mb-4">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             {/* <!-- Content --> */}
             <h6 class="fw-bold mb-5">
             Present by:
@@ -91,7 +91,7 @@ function Footer(){
           Mokleters 2021-Selamanya
         </div>
   
-        <div className="text-reset col-md-3 text-end">
+        <div className="text-reset col-md-5 text-end">
             <a href="/">Report</a> | <a href="/">Security & Privacy</a> | <a href="/">Terms & Use</a>
         </div>
       </copyright>
