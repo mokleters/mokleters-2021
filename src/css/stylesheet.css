@@ -116,6 +116,9 @@ copyright a{
 .kotak-mengenal{
     max-width: 80%;
 }
+.content-img{
+    margin-bottom: 70px;
+}
 .icon-mengenal{
     width: 50px;
     height: 90px;
@@ -144,9 +147,10 @@ copyright a{
 .content-img p{
     font-weight: 500;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 30px;
     text-align: justify;
     color: #828282;
+    max-width: 500px;
 }
 .icon-mengenal embed{
     width: 80px; 
@@ -176,7 +180,43 @@ copyright a{
     height: 450px;
     width: 700px;
 }
+
+/* =========== Bergabung ======== */
+.box-bergabung h2{
+    height: 31px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 25px;
+    text-align: center;
+}
+.box-bergabung p{
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+    margin-top: 0;
+    text-align: center;
+    max-width: 350px;
+}
+
+.img-bergabung{
+    height: 180px;
+    width: 180px;
+}
+.box-bergabung{
+    width: 190px;
+    height: 220px;
+    margin: 70px 40px;
+    margin-left: 0;
+    text-align: center;
+}
+.bergabung-title{
+    margin-top: 20px !important;
+}
 /* ============= Landing Page - Blog ============= */
+.landing-blog{
+    margin-top: 200px;
+}
 .landing-blog h1{
     font-weight:bolder;
     font-size: 64px;

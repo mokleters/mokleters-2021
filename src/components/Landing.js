@@ -1,8 +1,8 @@
 import React from 'react';
 import img01 from './../images/01.svg';
 import img02 from './../images/02.svg';
-// import img03 from './../images/03.png';
-// import img04 from './../images/04.png';
+import img03 from './../images/03.svg';
+import img04 from './../images/04.svg';
 import img05 from './../images/05.svg';
 import tiktok from './../images/Tiktok.svg';
 import twitter from './../images/Twitter.svg';
@@ -65,7 +65,7 @@ function Landing() {
                 <div class="row mt-5">
                     <div class="col-lg-7 px-1 px-lg-5 h-100">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="video-perkenalan embed-responsive-item" src="https://www.youtube.com/embed/7d_fT2wM0Sc" allowfullscreen></iframe>
+                            <iframe title="video-perkenalan" class="video-perkenalan embed-responsive-item" src="https://www.youtube.com/embed/7d_fT2wM0Sc" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="col-lg-5 mx-auto">
@@ -75,7 +75,6 @@ function Landing() {
                             <h1 class="font-weight-bold">Video <span>Profile</span> Mokleters</h1>                
                             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <button type="button" className="btn-blog rounded-pill">Yuk Lihat</button>
-                            {/* ===========> GARIS WARNA WARNI BELUM <============*/}
                         </div>     
                     </div>
                     {/* <!-- Grid column -->*/}
@@ -93,7 +92,6 @@ function Landing() {
                             <h1 class="font-weight-bold">Kita juga ada <span>Toko Online</span> lho!</h1>                
                             <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <button type="button" className="btn-blog rounded-pill">Yuk Lihat</button>
-                            {/* ===========> GARIS WARNA WARNI BELUM <============*/}
                         </div>
                     </div>
                     <div class="col-lg-5 mx-auto">
@@ -105,15 +103,58 @@ function Landing() {
                 {/* <!-- Grid row --> */}
             </div>
 
+            {/* ====== BERGABUNG ====== */}
+            <div class="content-img container text-center text-md-start mt-5">
+                {/* <!-- Grid row --> */}                
+                <div class="bergabung row mt-5">
+                    <div class="col-lg-6 px-1 px-lg-5 h-100">
+                        <div class="kotak-bergabung row mt-3">
+                            <div class="box-bergabung col">
+                                <embed src={img01} className="img-bergabung"></embed>
+                                <h2>Bergabunglah bersama</h2>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            </div>
+                            <div class="box-bergabung col">
+                                <embed src={img02} className="img-bergabung"></embed>
+                                <h2>Bergabunglah bersama</h2>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            </div>
+                            <div class="box-bergabung col">
+                                <embed src={img03} className="img-bergabung"></embed>
+                                <h2>Bergabunglah bersama</h2>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            </div>
+                            <div class="box-bergabung col">
+                                <embed src={img04} className="img-bergabung"></embed>
+                                <h2>Bergabunglah bersama</h2>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="bergabung-title col-lg-6 mx-auto">
+                    {/* <!-- Links --> */}
+                    <div class="text h-300 align-items-left justify-content-left text-left">
+                            <h2>Join Us!</h2>
+                            <h1 class="font-weight-bold"><span>Yuk! Bergabung</span> Dengan Kami</h1>                
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <button type="button" className="btn-blog rounded-pill">Yuk Lihat</button>
+                        </div>     
+                    </div>
+                    {/* <!-- Grid column -->*/}
+                </div>
+                {/* <!-- Grid row --> */}
+            </div>
+
+            {/* ========= BLOG ========= */}
             <div className="landing-blog">
                 <div class="container px-4 px-lg-5 h-100">
                     <div class="row gx-4 gx-lg-5 h-300 align-items-center justify-content-center text-center">
                         <div class="col-lg-10 align-self-baseline">
-                        <div class="align-self-end">
-                            <h1 class="font-weight-bold">Yuk lihat juga <span>blog</span> yang sudah dibuat Mokleters!</h1>
-                        </div>                    
+                            <div class="align-self-end">
+                                <h1 class="font-weight-bold">Yuk lihat juga <span>blog</span> yang sudah dibuat Mokleters!</h1>
+                            </div>                    
                             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            
+                                
                             <button type="button" className="btn-blog rounded-pill">Yuk Lihat</button>
                         </div>
                     </div>
