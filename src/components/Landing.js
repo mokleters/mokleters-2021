@@ -3,7 +3,7 @@ import img01 from './../images/01.svg';
 import img02 from './../images/02.svg';
 // import img03 from './../images/03.png';
 // import img04 from './../images/04.png';
-// import img05 from './../images/05.png';
+import img05 from './../images/05.svg';
 import tiktok from './../images/Tiktok.svg';
 import twitter from './../images/Twitter.svg';
 import instagram from './../images/Instagram.svg';
@@ -32,6 +32,7 @@ function Landing() {
                 </div>
             </div>
         </hero>
+        {/* ===== Yuk Kenalan ===== */}
             <div class="content-img container text-center text-md-start mt-5">
                 {/* <!-- Grid row --> */}
                 <div class="row mt-5">
@@ -57,6 +58,53 @@ function Landing() {
                 </div>
                 {/* <!-- Grid row --> */}
             </div>
+
+            {/* ====== VIDEO ====== */}
+            <div class="content-img container text-center text-md-start mt-5">
+                {/* <!-- Grid row --> */}
+                <div class="row mt-5">
+                    <div class="col-lg-7 px-1 px-lg-5 h-100">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="video-perkenalan embed-responsive-item" src="https://www.youtube.com/embed/7d_fT2wM0Sc" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 mx-auto">
+                    {/* <!-- Links --> */}
+                    <div class="text h-300 align-items-left justify-content-left text-left">
+                            <h2>Yuk lihat!</h2>
+                            <h1 class="font-weight-bold">Video <span>Profile</span> Mokleters</h1>                
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <button type="button" className="btn-blog rounded-pill">Yuk Lihat</button>
+                            {/* ===========> GARIS WARNA WARNI BELUM <============*/}
+                        </div>     
+                    </div>
+                    {/* <!-- Grid column -->*/}
+                </div>
+                {/* <!-- Grid row --> */}
+            </div>
+
+            {/* ======= TOKO ONLINE ==== */}
+            <div class="content-img container text-center text-md-start mt-5">
+                {/* <!-- Grid row --> */}
+                <div class="row mt-5">
+                    <div class="col-lg-7 px-1 px-lg-5 h-100">
+                        <div class="text h-300 align-items-left justify-content-left text-left">
+                            <h2>Toko Online</h2>
+                            <h1 class="font-weight-bold">Kita juga ada <span>Toko Online</span> lho!</h1>                
+                            <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <button type="button" className="btn-blog rounded-pill">Yuk Lihat</button>
+                            {/* ===========> GARIS WARNA WARNI BELUM <============*/}
+                        </div>
+                    </div>
+                    <div class="col-lg-5 mx-auto">
+                    {/* <!-- Links --> */}
+                        <embed src={img05} className="imgKenalan"  width="600px" height="600px" alt="img"></embed>     
+                    </div>
+                    {/* <!-- Grid column -->*/}
+                </div>
+                {/* <!-- Grid row --> */}
+            </div>
+
             <div className="landing-blog">
                 <div class="container px-4 px-lg-5 h-100">
                     <div class="row gx-4 gx-lg-5 h-300 align-items-center justify-content-center text-center">
