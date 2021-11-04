@@ -86,7 +86,7 @@ function Footer(){
     {/* <!-- Section: Links  --> */}
 
     {/* <!-- Copyright --> */}
-    <copyright className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-5 mb-4">
+    <copyright className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-5">
         <div className="text-reset d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark">
           Mokleters 2021-Selamanya
         </div>
