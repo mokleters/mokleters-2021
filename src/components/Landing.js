@@ -36,7 +36,7 @@ function Landing() {
             <div class="content-img container text-center text-md-start mt-5">
                 {/* <!-- Grid row --> */}
                 <div class="row mt-5">
-                    <div class="col-lg-7 px-1 px-lg-5 h-100">
+                    <div class="col-lg-6 px-1 px-lg-5 h-100">
                         <div class="text h-300 align-items-left justify-content-left text-left">
                             <h2>Yuk Kenalan!</h2>
                             <h1 class="font-weight-bold">Mengenal <span>Mokleters</span> Lebih Jauh!</h1>                
@@ -63,7 +63,7 @@ function Landing() {
             <div class="content-img container text-center text-md-start mt-5">
                 {/* <!-- Grid row --> */}
                 <div class="row mt-5">
-                    <div class="col-lg-7 px-1 px-lg-5 h-100">
+                    <div class="col-lg-6 px-1 px-lg-5 h-100">
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe title="video-perkenalan" class="video-perkenalan embed-responsive-item" src="https://www.youtube.com/embed/7d_fT2wM0Sc" allowfullscreen></iframe>
                         </div>
@@ -86,7 +86,7 @@ function Landing() {
             <div class="content-img container text-center text-md-start mt-5">
                 {/* <!-- Grid row --> */}
                 <div class="row mt-5">
-                    <div class="col-lg-7 px-1 px-lg-5 h-100">
+                    <div class="col-lg-6 px-1 px-lg-5 h-100">
                         <div class="text h-300 align-items-left justify-content-left text-left">
                             <h2>Toko Online</h2>
                             <h1 class="font-weight-bold">Kita juga ada <span>Toko Online</span> lho!</h1>                
@@ -131,12 +131,12 @@ function Landing() {
                             </div>
                         </div>
                     </div>
-                    <div className="bergabung-title col-lg-6 mx-auto">
+                    <div className="bergabung-title col-lg-5 mx-auto">
                     {/* <!-- Links --> */}
                     <div class="text h-300 align-items-left justify-content-left text-left">
                             <h2>Join Us!</h2>
                             <h1 class="font-weight-bold"><span>Yuk! Bergabung</span> Dengan Kami</h1>                
-                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
                             <button type="button" className="btn-blog rounded-pill">Yuk Lihat</button>
                         </div>     
                     </div>

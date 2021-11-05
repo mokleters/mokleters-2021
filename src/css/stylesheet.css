@@ -5,8 +5,19 @@
 * {
     font-family: 'Poppins', sans-serif; /*ini manggil yang poppins weight 500 (yang di import pertama) */
     font-style: normal;
-    text-decoration: none !important;
+    text-decoration: none !important;   
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: none !important;
+    -moz-box-sizing: none !important;
+    box-sizing: none !important;
 }
+  *:before,
+  *:after {
+    -webkit-box-sizing: none !important;
+       -moz-box-sizing: none !important;
+            box-sizing: none !important; 
+  }
 h1{
     font-family: 'Poppins', sans-serif; /*ini manggil yang poppins weight 700 (yang di import kedua) */
 }
@@ -43,7 +54,9 @@ navbar a:hover{
 
 /* ========== HERO ========== */
 .hero{
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin: 100px 0;
+    padding-top: 20px;
 }
 .hero p{
     color: #828282;
@@ -115,30 +128,31 @@ copyright a{
 /* ========= Content Mengenal + Perkenalan Toko Online + Video + bergabung =========*/
 .kotak-mengenal{
     max-width: 80%;
+
 }
 .content-img{
-    margin-bottom: 70px;
+    margin: 70px 0;
 }
 .icon-mengenal{
-    width: 50px;
+    width: 10px;
     height: 90px;
     background: #FFFFFF;
     box-shadow: 6px 8px 29px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
-    margin: 20px 40px;
+    margin: 20px 10px;
     margin-left: 0;
 }
 .content-img h2{
     margin-top: 100px;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 26px;
     line-height: 20px;
     color: #828282;
 }
 .content-img h1{
     font-weight: bold;
-    font-size: 64px;
-    line-height: 80px;
+    font-size: 54px;
+    line-height: 60px;
     color: #222222;
 }
 .content-img span{
@@ -150,7 +164,7 @@ copyright a{
     line-height: 30px;
     text-align: justify;
     color: #828282;
-    max-width: 500px;
+    max-width: 600px;
 }
 .icon-mengenal embed{
     width: 80px; 
@@ -170,15 +184,15 @@ copyright a{
         border: none;
         font-size: 18px;
         color: rgb(255, 255, 255);
-        margin-top: 25px;
+        margin-top: 10px;
 }
 
 /* =========== Video =========== */
 .content-img iframe{
-    margin-top: 70px;
+    margin-top: 85px;
     border-radius: 20px;
-    height: 450px;
-    width: 700px;
+    height: 400px;
+    width: 640px;
 }
 
 /* =========== Bergabung ======== */
@@ -188,6 +202,7 @@ copyright a{
     line-height: 20px;
     color: #000000;
     margin-top: 25px;
+    margin-bottom: 0;
     text-align: center;
 }
 .box-bergabung p{
@@ -206,12 +221,18 @@ copyright a{
 .box-bergabung{
     width: 190px;
     height: 220px;
-    margin: 70px 40px;
+    margin: 60px 40px;
     margin-left: 0;
     text-align: center;
 }
+.kotak-bergabung p{
+    max-width: 300px;
+}
 .bergabung-title{
     margin-top: 20px !important;
+}
+.bergabung-title p{
+    max-width: 380px;
 }
 /* ============= Landing Page - Blog ============= */
 .landing-blog{
@@ -239,5 +260,7 @@ copyright a{
     color: rgb(255, 255, 255);
     margin-top: 25px;
 }
-
+.btn-blog:hover{
+    background-color: #fc7e7e !important;
+}
 /* ============== Big-img ============== */
