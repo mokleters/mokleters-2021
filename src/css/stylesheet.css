@@ -134,12 +134,12 @@ copyright a{
     margin: 70px 0;
 }
 .icon-mengenal{
-    width: 10px;
+    width: 50px;
     height: 90px;
     background: #FFFFFF;
     box-shadow: 6px 8px 29px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
-    margin: 20px 10px;
+    margin: 20px 40px;
     margin-left: 0;
 }
 .content-img h2{
@@ -185,6 +185,9 @@ copyright a{
         font-size: 18px;
         color: rgb(255, 255, 255);
         margin-top: 10px;
+}
+.line{
+    margin-left: -6px;
 }
 
 /* =========== Video =========== */
