@@ -1,45 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); /* font buat tulisan biasa*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); /* font buat h1 hero */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* font buat tulisan biasa*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* font buat h1 hero */
 
 /* jadi ini di import dua kali, nah manggilnya nanti sesuai urutan */
 * {
-    font-family: 'Poppins', sans-serif; /*ini manggil yang poppins weight 500 (yang di import pertama) */
+    font-family: 'Poppins', sans-serif;
+    /*ini manggil yang poppins weight 500 (yang di import pertama) */
     font-style: normal;
-    text-decoration: none !important;   
+    text-decoration: none !important;
     margin: 0;
     padding: 0;
     -webkit-box-sizing: none !important;
     -moz-box-sizing: none !important;
     box-sizing: none !important;
 }
-  *:before,
-  *:after {
+
+*:before,
+*:after {
     -webkit-box-sizing: none !important;
-       -moz-box-sizing: none !important;
-            box-sizing: none !important; 
-  }
-h1{
-    font-family: 'Poppins', sans-serif; /*ini manggil yang poppins weight 700 (yang di import kedua) */
+    -moz-box-sizing: none !important;
+    box-sizing: none !important;
 }
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    /*ini manggil yang poppins weight 700 (yang di import kedua) */
+}
+
 /* ========== Navbar ========== */
-navbar{
+navbar {
     padding: 30px 128px;
-    
+
 }
-navbar li{
+
+navbar li {
     margin: 0 20px;
-    font-size: 10px;
-    font-size: 18px;    
-}
-navbar a:hover{
-    color: #EB5757 !important;
-}
-.header{
     font-size: 10px;
     font-size: 18px;
 }
 
-.btn-login{
+navbar a:hover {
+    color: #EB5757 !important;
+}
+
+.header {
+    font-size: 10px;
+    font-size: 18px;
+}
+
+.btn-login {
     background-color: #EB5757 !important;
     width: 105px;
     height: 44px;
@@ -48,29 +58,33 @@ navbar a:hover{
     color: rgb(255, 255, 255);
 }
 
-.btn-login:hover{
+.btn-login:hover {
     background-color: #fc7e7e !important;
 }
 
 /* ========== HERO ========== */
-.hero{
+.hero {
     /* margin-top: 50px; */
     margin: 100px 0;
     padding-top: 20px;
 }
-.hero p{
+
+.hero p {
     color: #828282;
     text-align: center;
 }
-.hero h1{
+
+.hero h1 {
     font-weight: 600;
     font-size: 144px;
     color: #EB5757;
 }
-.hero h1 span{
-    color:#222222;
+
+.hero h1 span {
+    color: #222222;
 }
-.btn-explore{    
+
+.btn-explore {
     width: 215px;
     height: 69px;
     left: 613px;
@@ -82,58 +96,72 @@ navbar a:hover{
     color: rgb(255, 255, 255);
     margin-top: 34px;
 }
-.btn-explore:hover{
+
+.btn-explore:hover {
     color: rgb(173, 173, 173);
 }
-.subtitle{
+
+.subtitle {
     margin-bottom: -18px;
 }
+
 /* ========== FOOTER ========== */
-footer{
+footer {
     font-size: 18px;
     padding-top: 100px;
     background-color: #f2f2f2;
 }
-.footer-all{
-    margin-top: 70px; 
+
+.footer-all {
+    margin-top: 70px;
 }
-.footer .text-center p-4{
+
+.footer .text-center p-4 {
     background-color: rgba(0, 0, 0, 0.05);
 }
-.footer-all a:hover{
+
+.footer-all a:hover {
     color: #EB5757 !important;
 }
-.footer-all a{
+
+.footer-all a {
     line-height: 27px;
 }
-.footer-all .App-logo{
-    margin-bottom: 20px ;
+
+.footer-all .App-logo {
+    margin-bottom: 20px;
 }
-.footer-all h6{ 
-    font-size:larger;
+
+.footer-all h6 {
+    font-size: larger;
     color: #333333;
 }
-.footer-all img{
+
+.footer-all img {
     width: 170px;
     height: auto;
 }
-copyright{
+
+copyright {
     padding: 30px 128px;
     margin-top: 60px;
 }
-copyright a{
+
+copyright a {
     color: #828282;
 }
 
 /* ========= Content Mengenal + Perkenalan Toko Online + Video + bergabung =========*/
-.kotak-mengenal{
+.kotak-mengenal {
     max-width: 80%;
 
 }
-.content-img{
+
+.content-img {
     margin: 70px 0;
 }
-.icon-mengenal{
+
+.icon-mengenal {
     width: 50px;
     height: 90px;
     background: #FFFFFF;
@@ -142,23 +170,27 @@ copyright a{
     margin: 20px 40px;
     margin-left: 0;
 }
-.content-img h2{
+
+.content-img h2 {
     margin-top: 100px;
     font-weight: 500;
     font-size: 26px;
     line-height: 20px;
     color: #828282;
 }
-.content-img h1{
+
+.content-img h1 {
     font-weight: bold;
     font-size: 54px;
     line-height: 60px;
     color: #222222;
 }
-.content-img span{
+
+.content-img span {
     color: #EB5757
 }
-.content-img p{
+
+.content-img p {
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
@@ -166,32 +198,37 @@ copyright a{
     color: #828282;
     max-width: 600px;
 }
-.icon-mengenal embed{
-    width: 80px; 
-    padding-top: 5px;   
+
+.icon-mengenal embed {
+    width: 80px;
+    padding-top: 5px;
 }
-.icon-twitter{
-    margin-top: 9px;          
+
+.icon-twitter {
+    margin-top: 9px;
 }
-.icon-tiktok{
+
+.icon-tiktok {
     padding-left: 6px;
     height: 80px;
 }
-.content-img button{
-        background-color: #EB5757 !important;
-        width: 195px;
-        height: 55px;
-        border: none;
-        font-size: 18px;
-        color: rgb(255, 255, 255);
-        margin-top: 10px;
+
+.content-img button {
+    background-color: #EB5757 !important;
+    width: 195px;
+    height: 55px;
+    border: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
 }
-.line{
+
+.line {
     margin-left: -6px;
 }
 
 /* =========== Video =========== */
-.content-img iframe{
+.content-img iframe {
     margin-top: 85px;
     border-radius: 20px;
     height: 400px;
@@ -199,7 +236,7 @@ copyright a{
 }
 
 /* =========== Bergabung ======== */
-.box-bergabung h2{
+.box-bergabung h2 {
     height: 31px;
     font-size: 18px;
     line-height: 20px;
@@ -208,7 +245,8 @@ copyright a{
     margin-bottom: 0;
     text-align: center;
 }
-.box-bergabung p{
+
+.box-bergabung p {
     font-size: 14px;
     line-height: 21px;
     color: #828282;
@@ -217,44 +255,53 @@ copyright a{
     max-width: 350px;
 }
 
-.img-bergabung{
+.img-bergabung {
     height: 180px;
     width: 180px;
 }
-.box-bergabung{
+
+.box-bergabung {
     width: 190px;
     height: 220px;
     margin: 60px 40px;
     margin-left: 0;
     text-align: center;
 }
-.kotak-bergabung p{
+
+.kotak-bergabung p {
     max-width: 300px;
 }
-.bergabung-title{
+
+.bergabung-title {
     margin-top: 20px !important;
 }
-.bergabung-title p{
+
+.bergabung-title p {
     max-width: 380px;
 }
+
 /* ============= Landing Page - Blog ============= */
-.landing-blog{
+.landing-blog {
     margin-top: 200px;
 }
-.landing-blog h1{
-    font-weight:bolder;
+
+.landing-blog h1 {
+    font-weight: bolder;
     font-size: 64px;
     line-height: 96px;
     color: #222222;
 }
-.landing-blog span{
+
+.landing-blog span {
     color: #EB5757;
 }
-.landing-blog p{
-    color:#828282;
+
+.landing-blog p {
+    color: #828282;
     margin: 3px 230px;
 }
-.landing-blog .btn-blog{
+
+.landing-blog .btn-blog {
     background-color: #EB5757 !important;
     width: 195px;
     height: 55px;
@@ -263,7 +310,9 @@ copyright a{
     color: rgb(255, 255, 255);
     margin-top: 25px;
 }
-.btn-blog:hover{
+
+.btn-blog:hover {
     background-color: #fc7e7e !important;
 }
+
 /* ============== Big-img ============== */
