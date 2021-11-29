@@ -8,10 +8,10 @@ import Blog from "../components/Blog";
 import Joinus from "../components/Join-us";
 import Footer from "../components/footer";
 
-export default class Home extends React.Component {
+class Index extends React.Component {
   render() {
     return (
-      <div>
+      <>
         <Navbar />
         <Hero />
         <About />
@@ -20,7 +20,9 @@ export default class Home extends React.Component {
         <Blog />
         <Joinus />
         <Footer />
-      </div>
+      </>
     );
   }
 }
+
+export default Index;
