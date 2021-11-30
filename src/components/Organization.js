@@ -3,9 +3,9 @@ import React from "react";
 export default class Organization extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Organization section</h1>
-      </div>
+      <>
+        <h1 className="b-example-divider mb-0">Organization section</h1>
+      </>
     );
   }
 }

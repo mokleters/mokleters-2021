@@ -5,6 +5,7 @@ import "./css/App.css";
 
 import Home from "./pages/home";
 import Links from "./pages/links";
+import Olshop from "./pages/olshop";
 
 export default class App extends React.Component {
   render() {
@@ -12,6 +13,7 @@ export default class App extends React.Component {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/links' element={<Links/>}/>
+        <Route path='/olshop' element={<Olshop/>}/>
       </Routes>
     )
   }

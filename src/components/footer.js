@@ -1,35 +1,22 @@
 import React from "react";
 import '../css/Footers.css';
-import logo from '../assets/logo-mokleter-footer.png'
-import ig from '../assets/ig.png'
-import twt from '../assets/twt.png'
-import tiktok from '../assets/tiktok.png'
-import yt from '../assets/yt.png'
+import logo from '../assets/footer/logo-mokleter-footer.png'
+import ig from '../assets/footer/ig.png'
+import twt from '../assets/footer/twt.png'
+import tiktok from '../assets/footer/tiktok.png'
+import yt from '../assets/footer/yt.png'
 
 export default class Footer extends React.Component {
   render() {
     return (
       <>
-        <h1 className="b-example-divider mb-0">Footer section</h1>
-        <div class="bg-mokleters px-4 py-5 text-center">
-          <div class="py-5">
-            <div class="col-lg-5 mx-auto">
-              <p class="fs-5 mb-4 text-white">
-              “Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the
-                industry's  standard dummy text ever since the 1500s.”
-              </p>
-              <h1 class="text-desc-footer">- Lorem Ipsum -</h1>
-            </div>
-          </div>
-        </div>
         <div className="bg-dark-cs">
           <div class="container">
             <footer class="py-5">
               <div class="row">
                 <div class="col-md-5 col-sm-12 mb-4">
                   <div class="d-flex align-items-center">
-                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <a href="/" class="me-2 text-decoration-none lh-1">
                       <img src={logo}/>
                     </a>
                     <span class="mokleters-text">MOKLETERS</span>
