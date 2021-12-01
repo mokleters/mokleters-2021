@@ -3,9 +3,9 @@ import React from "react";
 export default class Navbar extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Navbar section</h1>
-      </div>
+      <>
+        <h1 className="b-example-divider mb-0">Navbar section</h1>
+      </>
     );
   }
 }
