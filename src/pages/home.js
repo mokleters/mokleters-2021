@@ -9,6 +9,7 @@ import Blog from "../components/Blog";
 import Joinus from "../components/Join-us";
 import FooterBg from "../components/footer-bg";
 import Footer from "../components/footer";
+import Bombi from "../components/Bombi";
 
 class Index extends React.Component {
   render() {
@@ -18,10 +19,11 @@ class Index extends React.Component {
         <Navbar />
         <Hero />
         <About />
+        <Bombi/>
         <Organization />
-        <Olshop />
         <Blog />
-        <Joinus />
+        {/* <Joinus /> */}
+        <Olshop />
         <FooterBg/>
         <Footer />
       </>

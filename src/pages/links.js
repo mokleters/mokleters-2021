@@ -12,7 +12,7 @@ export default class Links extends React.Component {
       <>
         <div class="jumbotron d-flex align-items-center min-vh-100 bg-mokleters text-white">
           <div class="container d-flex justify-content-center">
-          <div className="col-sm-12 col-md-6 p-5 glass">
+          <div className="col-sm-12 col-md-6 p-5 glass my-5">
               <div class="d-flex justify-content-center mb-3">
                 <a href="/" class="me-2 text-decoration-none lh-1">
                   <img src={logo}/>
@@ -20,6 +20,7 @@ export default class Links extends React.Component {
                 <span class="mokleters-text">MOKLETERS</span>
               </div>
               <a href="#" className="btn btn-outline-light form-control my-3 shake">Follow Instagram</a>
+              <a href="#" className="btn btn-outline-light form-control my-3">Follow Instagram</a>
               <a href="#" className="btn btn-outline-light form-control my-3">Follow Instagram</a>
               <a href="#" className="btn btn-outline-light form-control my-3">Follow Instagram</a>
               <a href="#" className="btn btn-outline-light form-control my-3">Follow Instagram</a>
