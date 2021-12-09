@@ -1,5 +1,5 @@
 import React from "react";
-import '../css/Footers.css';
+import '../css/Footers.scoped.css';
 import logo from '../assets/footer/logo-mokleter-footer.png'
 import ig from '../assets/footer/ig.png'
 import twt from '../assets/footer/twt.png'
@@ -9,8 +9,8 @@ import yt from '../assets/footer/yt.png'
 export default class Footer extends React.Component {
   render() {
     return (
-      <>
-        <div className="bg-dark-cs">
+      <section id="footer">
+        <div className="bg-dark-cs h-20">
           <div class="container">
             <footer class="py-5">
               <div class="row">
@@ -36,13 +36,12 @@ export default class Footer extends React.Component {
                 </div>
               
                 <div class="col col-md-2 offset-md-2 offset-1">
-                  <h5 className="mb-3">Toggle</h5>
+                  <h5 className="mb-3">Site Map</h5>
                   <ul class="nav flex-column">
-                    <li class="nav-item my-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                    <li class="nav-item my-2"><a href="#" class="nav-link p-0 text-muted">Organizations</a></li>
-                    <li class="nav-item my-2"><a href="#" class="nav-link p-0 text-muted">Shop</a></li>
-                    <li class="nav-item my-2"><a href="#" class="nav-link p-0 text-muted">Join</a></li>
-                    <li class="nav-item my-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+                    <li class="nav-item my-2"><a href="#organization" class="nav-link p-0 text-muted">Organization</a></li>
+                    <li class="nav-item my-2"><a href="#bombi" class="nav-link p-0 text-muted">About Bombi</a></li>
+                    <li class="nav-item my-2"><a href="#olshop" class="nav-link p-0 text-muted">Shop</a></li>
+                    <li class="nav-item my-2"><a href="#blog" class="nav-link p-0 text-muted">Online Blog</a></li>
                   </ul>
                 </div>
 
@@ -76,7 +75,7 @@ export default class Footer extends React.Component {
             </footer>
           </div>
         </div>
-      </>
+      </section>
     );
   }
 }
