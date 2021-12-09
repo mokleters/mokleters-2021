@@ -1,0 +1,15 @@
+.model-with-bg {
+    background: linear-gradient(#ffffff, #ada996); 
+    overflow-x: hidden;
+}
+
+.textqw-bg {
+    position: absolute; 
+    text-align: center; 
+    font-size: 100px; 
+    top:50%;
+}
+
+.model {
+    background-color: unset;
+}

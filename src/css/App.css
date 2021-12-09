@@ -19,6 +19,26 @@
   src: local('Varsity'), url('../assets/fonts/VarsityTeam-Bold.otf') format('opentype');
 }
 
+.bg-dark-cs {
+  background-color: #000;
+  color: white;
+}
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.pymy-custom {
+  padding-top: 3.1rem!important;
+  margin-top: 3.1rem!important;
+}
+
+.full-page {
+  height:100vh;
+  width:100%;
+}
+
 .varsity-text {
   font-family: Varsity Team;
   font-style: normal;
@@ -61,3 +81,16 @@
     10.71429% { transform:translate(0,0) }
     100% { transform:translate(0,0) }
     }
+
+.btn-danger {
+  background-color: #D75252!important;
+  border-radius: 0!important;
+  border: none!important;
+  font-size: 18px!important;
+  color: rgb(255, 255, 255)!important;
+  font-family: 'Inter', sans-serif!important;
+}
+
+.btn-danger:hover{
+  background-color: rgb(219, 116, 116) !important;
+}

@@ -1,15 +1,5 @@
-.bg-dark-cs {
-  background-color: #000;
-  color: white;
-}
-
 li a {
   text-decoration: none;
-}
-
-.pymy-custom {
-  padding-top: 3.1rem!important;
-  margin-top: 3.1rem!important;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -39,9 +29,4 @@ li a {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-.text-justify {
-  text-align: justify;
-  text-justify: inter-word;
 }

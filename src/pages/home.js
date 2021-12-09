@@ -15,17 +15,19 @@ class Index extends React.Component {
   render() {
     return (
       <>
-        <h1 className="b-example-divider mb-0">PAGES: <Link to="/links">Pages links</Link> <Link to="/olshop">Pages Olshop</Link></h1>
-        <Navbar />
-        <Hero />
-        <About />
+        {/* <h1 className="b-example-divider mb-0">PAGES: <Link to="/links">Pages links</Link> <Link to="/olshop">Pages Olshop</Link></h1> */}
+        {/* <Navbar /> */}
+        {/* <Hero /> */}
+        {/* <About /> */}
         <Bombi/>
         <Organization />
         <Blog />
         {/* <Joinus /> */}
         <Olshop />
-        <FooterBg/>
-        <Footer />
+        <div className="full-page">
+          <FooterBg/>
+          <Footer />
+        </div>
       </>
     );
   }
