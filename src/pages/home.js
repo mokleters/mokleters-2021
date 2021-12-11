@@ -10,12 +10,13 @@ import Joinus from "../components/Join-us";
 import FooterBg from "../components/footer-bg";
 import Footer from "../components/footer";
 import Bombi from "../components/Bombi";
+import Quotes from "../components/Quotes";
 
 class Index extends React.Component {
   render() {
     return (
       <>
-        <h1 className="b-example-divider mb-0">
+        {/* <h1 className="b-example-divider mb-0">
           <Link to="/links">Pages links</Link> |
           <Link to="/olshop">Pages Olshop</Link> | 
           <a href="#hero">hero</a> | 
@@ -24,17 +25,18 @@ class Index extends React.Component {
           <a href="#organization">organization</a> | 
           <a href="#blog">blog</a> | 
           <a href="#footer">footer</a>
-        </h1>
+        </h1> */}
         {/* <Navbar /> */}
         <Hero />
         <About />
-        <Bombi/>
+        <Quotes />
+        <Bombi />
         <Organization />
         <Blog />
         {/* <Joinus /> */}
         <Olshop />
         <div className="full-page bg-dark-cs">
-          <FooterBg/>
+          <FooterBg />
           <Footer />
         </div>
       </>

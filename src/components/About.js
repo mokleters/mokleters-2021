@@ -1,49 +1,65 @@
 import React from "react";
-import video from"../assets/videos/dummy-video.mp4";
 import "../css/About.scoped.css";
+
+import video from "../assets/videos/dummy-video.mp4";
 
 export default class About extends React.Component {
   stopMovie = (e) => {
     e.target.pause();
     e.target.currentTime = 0;
-    console.log('off');
-  }
-  
+    console.log("off");
+  };
+
   playMovie = (e) => {
     e.target.play();
-    console.log('on');
-  }
+    console.log("on");
+  };
   render() {
     return (
-      <section id="about">
+      <>
         {/* <h1 className="b-example-divider mb-0">About section</h1> */}
-        <div className="about">
-          <div class="container">
-            <div class="box">
-              <video src={video} type="video/mp4" loop class="clip" muted
-              onMouseOver={this.playMovie}
-              onMouseOut={this.stopMovie}
-              
-              ></video>
-            </div>
-            <div class="box">
-              <video src={video} type="video/mp4" loop class="clip" muted
-              onMouseOver={this.playMovie}
-              onMouseOut={this.stopMovie}
-              ></video>
-            </div>
+        <section id="about">
+          <div className="">
+            <div className="about">
+              <div class="container">
+                <div class="box">
+                  <video
+                    src={video}
+                    type="video/mp4"
+                    loop
+                    class="clip"
+                    muted
+                    onMouseOver={this.playMovie}
+                    onMouseOut={this.stopMovie}
+                  />
+                </div>
+                <div class="box">
+                  <video
+                    src={video}
+                    type="video/mp4"
+                    loop
+                    class="clip"
+                    muted
+                    onMouseOver={this.playMovie}
+                    onMouseOut={this.stopMovie}
+                  />
+                </div>
 
-            <div class="overlay row h-300 align-items-center justify-content-center text-center">
+                <div class="overlay row h-300 align-items-center justify-content-center text-center">
                   <div class="about-text align-self-end">
-                    <h1 class="font-weight-bold">
-                      ABOUT MOKLETERS
+                    <h1 class="varsity-text">
+                      ABOUT <span class="text-red">MOKLETERS</span>
                     </h1>
-                    <p>Lorem Ipsum is simpley dummy text of the printing dummy</p>                
-                </div>        
+                    <p>
+                      Lorem Ipsum is simpley dummy text of the printing dummy
+                    </p>
+                  </div>
+                </div>
               </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </>
     );
   }
 }
