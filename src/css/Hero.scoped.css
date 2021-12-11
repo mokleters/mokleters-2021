@@ -1,7 +1,7 @@
 
 /* >>>>>>>>>>>>>>>>>> HERO <<<<<<<<<<<<<<<<<< */
 .hero h1{
-    font-size: 72px;
+    font-size: 72;
     line-height: 78px;
     color: #FFFFFF;
     left:50%;
@@ -24,7 +24,7 @@
     position: absolute;
     background: rgba(49, 49, 49, 0.3);
     width: 100%;
-    height: 900px;
+    height: 100%;
     top: 0;
     left: 0;
   }
@@ -37,7 +37,7 @@
     display: none;
   }
   
-  .hero .content.active{
+  .hero .content{
     display: block;
     margin-left: 15vw;
   }

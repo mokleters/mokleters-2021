@@ -15,7 +15,7 @@ export default class About extends React.Component {
   }
   render() {
     return (
-      <>
+      <section id="about">
         {/* <h1 className="b-example-divider mb-0">About section</h1> */}
         <div className="about">
           <div class="container">
@@ -43,7 +43,7 @@ export default class About extends React.Component {
               </div>
           </div>
         </div>
-      </>
+      </section>
     );
   }
 }

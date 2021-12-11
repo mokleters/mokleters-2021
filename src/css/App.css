@@ -24,6 +24,15 @@
   color: white;
 }
 
+.bg-mokleters {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/footer/bg.png");
+  height: 50%;
+  background-position: 100% 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .text-justify {
   text-align: justify;
   text-justify: inter-word;
@@ -93,4 +102,10 @@
 
 .btn-danger:hover{
   background-color: rgb(219, 116, 116) !important;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }

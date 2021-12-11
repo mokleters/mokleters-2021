@@ -16,19 +16,21 @@ export default class Hero extends React.Component {
       <>
         {/* <h1 className="b-example-divider mb-0">Hero section</h1> */}
         <section class="hero">
-          <video class="video-slide active" src={video} autoplay muted loop onLoadStart={this.playMovie}></video>
-          <div class="content active">
-            <div class="row gx-4 gx-lg-5 h-300 align-items-center justify-content-center text-center">
-              <div class="col-lg-8 align-self-baseline">
-                <h1 class="font-weight-bold varsity-text">
-                  WITH<span> MOKLETERS </span>COMES BLESSEDNESS
-                </h1>
-                <i class="fas fa-gem me-3">
-                
-                  <img src={logo} className="hero-logo" alt="logo" width="9%" height="9%"></img>
-                  
-                </i>                                    
-                <i class="arrow fas fa-gem me-3"></i>           
+          <video class="vh-100" src={video} autoplay muted loop onLoadStart={this.playMovie}></video>
+          <div class="content">
+            <div class="d-flex align-items-center">
+              <div class="container d-flex justify-content-center text-center">
+                <div className="col d-block">
+                  <h1 class="varsity-text">
+                    WITH<span> MOKLETERS </span>COMES BLESSEDNESS
+                  </h1>
+                  <i class="fas fa-gem me-3 d-block">
+                      <img src={logo} className="hero-logo" alt="logo" width="9%" height="9%"></img>
+                  </i>
+                </div>  
+                <a href="#about">
+                  <i class="arrow fas fa-gem me-3"></i>      
+                </a>
               </div>
             </div>
           </div>
