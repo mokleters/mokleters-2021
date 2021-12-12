@@ -1,5 +1,5 @@
 import React from "react";
-import '../css/Join-us.css'
+import '../css/Join-us.scoped.css'
 import image from "../assets/joinus/image.png";
 import cc from "../assets/joinus/cc.png";
 import bc from "../assets/joinus/bc.png";

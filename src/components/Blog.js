@@ -22,8 +22,8 @@ export default class Blog extends React.Component {
                 <p>Lorem Ipsum is simply dummy text of the printing and standard dummy </p> */}
               </div>
               <div className="row justify-content-center row-cols-md-4 row-cols-3">
-                <div className="hover col nopadding m-2">
-                  <div class="card bg-transparent border-0">
+                <div className="hover col nopadding">
+                  <div class="card bg-dark-cs border-0">
                       <a className="text-decoration-none text-white" href="#footer">
                         <img src={gambar1} class="card-img-top" alt=""/>
                       </a>
@@ -37,8 +37,8 @@ export default class Blog extends React.Component {
                       </div>
                   </div>
                 </div>
-                <div className="hover col nopadding m-2">
-                  <div class="card bg-transparent border-0">
+                <div className="hover col nopadding">
+                  <div class="card bg-dark-cs border-0">
                       <a className="text-decoration-none text-white" href="#olshop">
                         <img src={gambar2} class="card-img-top" alt=""/>
                       </a>
@@ -52,8 +52,8 @@ export default class Blog extends React.Component {
                       </div>
                   </div>
                 </div>
-                <div className="hover col nopadding m-2">
-                  <div class="card bg-transparent border-0">
+                <div className="hover col nopadding">
+                  <div class="card bg-dark-cs border-0">
                       <a className="text-decoration-none text-white" href="#">
                         <img src={gambar3} class="card-img-top" alt=""/>
                       </a>

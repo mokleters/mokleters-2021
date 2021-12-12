@@ -16,7 +16,7 @@ class Index extends React.Component {
   render() {
     return (
       <>
-        {/* <h1 className="b-example-divider mb-0">
+        <h1 className="b-example-divider mb-0">
           <Link to="/links">Pages links</Link> |
           <Link to="/olshop">Pages Olshop</Link> | 
           <a href="#hero">hero</a> | 
@@ -25,7 +25,7 @@ class Index extends React.Component {
           <a href="#organization">organization</a> | 
           <a href="#blog">blog</a> | 
           <a href="#footer">footer</a>
-        </h1> */}
+        </h1>
         {/* <Navbar /> */}
         <Hero />
         <About />

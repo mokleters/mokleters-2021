@@ -20,7 +20,7 @@
 }
 
 .bg-dark-cs {
-  background-color: #000;
+  background-color: #000!important;
   color: white;
 }
 
