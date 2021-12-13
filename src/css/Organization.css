@@ -1,0 +1,120 @@
+section{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.organization{
+    width: 100%;
+    height: 100vh;
+    background: #2f2f2f;   
+}
+.orga{    
+    margin-bottom: -140px !important;
+    /* SEMENTARA */
+}
+.containerr{
+    margin: 150px 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cardd{
+    width: 300px;
+    height: 400px;
+    margin: 0 10px;
+    background-color: #fff;
+    transition: .5s;
+    font-size: 1.5vh;
+}
+.atas{
+    border-top: #D75252 solid 10px;
+    opacity: 0;
+}
+.cardd p,h3,span{
+    transition: .5s;
+}
+.cardd span{
+    opacity: 0;
+    color: #D75252;
+}
+.cardd .cardd-img{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.cardd-img img{
+    margin: 50px 33%;
+}
+
+.cardd-body{
+    height: 200px;    
+    text-align: justify;
+    padding: 20px;
+}
+
+.backgroundd{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background: url(../assets/organization/background.png);  
+    transition: .6s;  
+}
+.cardd:hover{
+    transform: translateY(-10px);  
+    margin: 0 20px;  
+}
+.cardd:hover p{
+    transform: translateY(-10px);    
+    transition: .5s;
+}
+.cardd:hover h3{
+    transform: translateY(-10px);    
+    transition: .5s;
+}
+.cardd:hover span{
+    opacity: 1;
+    transform: translateX(-10px);    
+    transition: .5s;
+}
+.cardd:hover .atas{
+    opacity: 1;
+    transition: .9s;
+}
+/* JIKA DI HOVER MUNCUL IMG DI CARD DENGAN SLIDE KANAN KE KIRI */
+/* .cardd:nth-child(1):hover{
+    background-image: url(../assets/organization/Fire.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+
+.cardd:nth-child(1):hover ~ .backgroundd{
+    background-image: url(../assets/organization/Fire.jpg);
+    background-size: cover;
+}
+.cardd:nth-child(2):hover ~ .backgroundd{
+    background-image: url(../assets/organization/Fire2.jpg);
+    background-size: cover;
+}
+.cardd:nth-child(3):hover ~ .backgroundd{
+    background-image: url(../assets/organization/Fire3.jpg);
+    background-size: cover;
+}
+
+@media screen and (max-width: 960px){
+    .cardd{
+        width: 20%;
+    }    
+    .cardd-img img{
+        margin: 50px 15%;
+    }
+    .varsity-text{    
+        font-size: 45px;
+    }
+}
