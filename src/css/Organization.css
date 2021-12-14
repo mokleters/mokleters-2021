@@ -23,16 +23,35 @@ section{
     flex-wrap: wrap;
 }
 
+.alice-carousel__next-btn-item,
+.alice-carousel__prev-btn-item{
+    display: none !important;    
+}
+.alice-carousel__dots-item,
+.alice-carousel__dots-item.__active{
+    margin-top: 55px !important;
+    border-radius: 0 !important;
+    height: 5px !important;
+    transition: .7s !important;
+}
+.alice-carousel__dots-item{
+    background-color: #808080 !important;
+    width: 37px !important;
+}
+.alice-carousel__dots-item.__active{
+    background-color: #D75252 !important;
+    width: 59px !important;
+}
 .cardd{
     width: 300px;
     height: 400px;
-    margin: 0 10px;
+    margin: 0 20%;
     background-color: #fff;
     transition: .5s;
     font-size: 1.5vh;
 }
 .atas{
-    border-top: #D75252 solid 10px;
+    border-top: #D75252 solid 20px;
     opacity: 0;
 }
 .cardd p,h3,span{
@@ -63,12 +82,12 @@ section{
     height: 100%;
     position: absolute;
     z-index: -1;
-    background: url(../assets/organization/background.png);  
+    background-image: url(../assets/organization/background.png);  
     transition: .6s;  
 }
+
 .cardd:hover{
     transform: translateY(-10px);  
-    margin: 0 20px;  
 }
 .cardd:hover p{
     transform: translateY(-10px);    
@@ -87,23 +106,38 @@ section{
     opacity: 1;
     transition: .9s;
 }
-/* JIKA DI HOVER MUNCUL IMG DI CARD DENGAN SLIDE KANAN KE KIRI */
-/* .cardd:nth-child(1):hover{
-    background-image: url(../assets/organization/Fire.jpg);
-    background-size: cover;
-    background-position: center;
-} */
 
+/* Untuk card hover dan background akan berubah */
+/* kelihatanya .cardd:nth-child():hover ~ .backgroundd 
+ tidak kedetect 
+ 
+ karena errornya atau bug muncul setelah
+ menggunakan carousel 
+ 
+ dimana yang sebelumnya card di dalam
+ render sekarang ada di function carousel - items[] */
 .cardd:nth-child(1):hover ~ .backgroundd{
-    background-image: url(../assets/organization/Fire.jpg);
-    background-size: cover;
+    background-image: url(../assets/organization/Fire.jpg) !important;
+    background-size: cover !important;
 }
 .cardd:nth-child(2):hover ~ .backgroundd{
-    background-image: url(../assets/organization/Fire2.jpg);
+    background-image: url(../assets/organization/Fire2.jpg) !important;
     background-size: cover;
 }
 .cardd:nth-child(3):hover ~ .backgroundd{
-    background-image: url(../assets/organization/Fire3.jpg);
+    background-image: url(../assets/organization/Fire3.jpg) !important;
+    background-size: cover;
+}
+.cardd:nth-child(4):hover ~ .backgroundd{
+    background-image: url(../assets/organization/Fire.jpg) !important;
+    background-size: cover !important;
+}
+.cardd:nth-child(5):hover ~ .backgroundd{
+    background-image: url(../assets/organization/Fire2.jpg) !important;
+    background-size: cover;
+}
+.cardd:nth-child(6):hover ~ .backgroundd{
+    background-image: url(../assets/organization/Fire3.jpg) !important;
     background-size: cover;
 }
 
