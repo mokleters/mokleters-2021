@@ -141,6 +141,35 @@ section{
     background-size: cover;
 }
 
+.modal{
+    display: block;
+    
+}
+.modal-dialog{
+    border-top: #D75252 solid 5px;
+}
+.modal-header{
+    border: none !important;    
+}
+.modal h1{
+    font-size: 5vh;
+    color: #D75252;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.modal-footer{
+    border: none !important;
+    background-image: url(../assets/organization/modal-footer.png);
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    width: 480px;
+    background-size: cover;
+}
+.modal-logo{
+    height: 120px;
+    margin: 7vh 10.5vw;
+}
 @media screen and (max-width: 960px){
     .cardd{
         width: 20%;
