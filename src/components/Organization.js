@@ -133,8 +133,7 @@ const Carousel = () => (
     controlsStrategy="alternate"
     autoPlay={true}
     autoPlayInterval={5000}
-    infinite={true}
-
+    infinite={true}    
   />
 );
 

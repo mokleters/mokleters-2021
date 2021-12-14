@@ -48,7 +48,7 @@ section{
     margin: 0 20%;
     background-color: #fff;
     transition: .5s;
-    font-size: 1.5vh;
+    
 }
 .atas{
     border-top: #D75252 solid 20px;
@@ -87,7 +87,7 @@ section{
 }
 
 .cardd:hover{
-    transform: translateY(-10px);  
+    transform: translateY(-13px);  
 }
 .cardd:hover p{
     transform: translateY(-10px);    
@@ -98,8 +98,7 @@ section{
     transition: .5s;
 }
 .cardd:hover span{
-    opacity: 1;
-    transform: translateX(-10px);    
+    opacity: 1; 
     transition: .5s;
 }
 .cardd:hover .atas{
@@ -143,7 +142,6 @@ section{
 
 .modal{
     display: block;
-    
 }
 .modal-dialog{
     border-top: #D75252 solid 5px;
@@ -168,16 +166,80 @@ section{
 }
 .modal-logo{
     height: 120px;
-    margin: 7vh 10.5vw;
+    margin: 7vh 11vw;
 }
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1270px){
     .cardd{
-        width: 20%;
+        margin: 0 5vw;
+    }  
+} 
+@media screen and (max-width: 1024px){
+    .cardd{
+        margin: 0 10vw;
+    }  
+} 
+@media screen and (max-width: 960px){    
+    .cardd{
+        width: 200px;
+        margin: 0 13vw;
     }    
     .cardd-img img{
-        margin: 50px 15%;
+        width: 75px;
+        margin: 50px 60px;
     }
     .varsity-text{    
         font-size: 45px;
     }
+    .alice-carousel__dots-item,
+    .alice-carousel__dots-item.__active{
+        margin-top: 45px !important;        
+        height: 4px !important;        
+    }
+    .alice-carousel__dots-item{        
+        width: 27px !important;
+    }
+    .alice-carousel__dots-item.__active{        
+        width: 49px !important;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .cardd{
+        width: 150px;
+        margin: 0 13vw;        
+    }    
+    .cardd-body{
+        padding-top: 0;
+    }
+    .cardd-img img{
+        width: 65px;        
+        margin: 50px 40px;   
+    }
+    .cardd .cardd-img{
+        height: 160px;
+    }
+    .varsity-text{    
+        font-size: 45px;
+    }
+    .alice-carousel__dots-item,
+    .alice-carousel__dots-item.__active{
+        margin-top: 35px !important;        
+        height: 4px !important;        
+    }
+    .alice-carousel__dots-item{        
+        width: 25px !important;
+    }
+    .alice-carousel__dots-item.__active{        
+        width: 44px !important;
+    }
+}
+@media screen and (max-width: 568px){
+    .cardd-img img{
+        width: 65px;        
+        margin: 50px 70px;   
+    }
+    .cardd{
+        width: 200px;
+        margin: 0 30vw;        
+    }  
 }
