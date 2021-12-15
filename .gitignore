@@ -24,3 +24,5 @@ yarn-error.log*
 
 /bootstrap-5.1.3-examples
 /pangami
+# Local Netlify folder
+.netlify

@@ -1,0 +1,46 @@
+.text-desc {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.card {
+  border: 1px solid rgb(255, 255, 255)!important;
+}
+
+.card:hover {
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+  border-top-width: 3px!important;
+  border-top-color: #D85252!important;
+}
+
+.card-active {
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+  border-top-width: 3px!important;
+  border-top-color: #D85252!important;
+}
+
+.text-decoration-gakada {
+  text-decoration: none;
+}
+
+/* .btn {
+  font-family: Montserrat!important;
+  font-style: normal!important;
+  font-weight: 500!important;
+  font-size: 24px!important;
+  line-height: 29px!important;
+}
+
+.btn-danger {
+  background-color: #D85252!important;
+  border-color: #D85252!important;
+}
+
+.btn-danger:hover {
+  background-color: #b63f3f!important;
+  border-color: #b63f3f!important;
+} */

@@ -1,14 +1,19 @@
 import React from "react";
-import Footer from "../components/footer";
+
+import Main from "../components/olshop/Main";
+
+import Footer from "../components/main/footer";
+import Hero_Olshop from "../components/olshop/Hero-olshop";
 
 export default class Olshop extends React.Component {
   render() {
     return (
-      <div>
-        <h1 className="b-example-divider mb-0">Olshop Page</h1>
-        Content Here...
+      <>
+        {/* <h1 className="b-example-divider mb-0">Olshop Page</h1> */}
+        <Hero_Olshop/>
+        <Main/>
         <Footer/>
-      </div>
+      </>
     );
   }
 }

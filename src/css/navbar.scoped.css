@@ -1,0 +1,77 @@
+.navbar{
+  background-color: transparent;
+  transition: .5s;
+}
+
+.navbar.active {
+  background-color: black;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    margin: 10px;
+  }
+  
+  .nav-logo {
+    margin-left: 7vh;
+    transition: .5s;
+  }
+
+  .navbar-brand {
+    margin-left: 10vh;
+  }
+  
+  .nav-link {
+    color: #969696;
+    text-decoration: none;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap');
+  .sidebar-nav{
+    list-style: none;
+    padding-left: 0px !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 42.19px;
+  }
+  
+  .offcanvas-header{
+    padding-bottom: 0px !important;
+  }
+  
+  .offcanvas-body{
+    margin: 0px;
+  }
+  
+  .nav-link:hover{
+    color: white;
+  }
+  
+  .offcanvas{
+    background-color: #333333;
+  }
+  
+  @media (max-width: 800px) {
+    .navbar-item {
+      display: none;
+    }
+  
+    .nav-logo {
+      margin-left: -1vh;
+    }
+
+    .navbar-brand{
+      margin-left: -2vh;
+    }
+  
+    .line{
+      width: 80%;
+    }
+  }
+  
+  @media (min-width: 800px){
+    .nav-item-alt{
+      display: none;
+    }
+  }
+  

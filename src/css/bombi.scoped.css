@@ -1,15 +1,13 @@
-.model-with-bg {
-    background: linear-gradient(#ffffff, #ada996); 
-    overflow-x: hidden;
-}
-
-.textqw-bg {
-    position: absolute; 
-    text-align: center; 
-    font-size: 100px; 
-    top:50%;
-}
-
-.model {
-    background-color: unset;
-}
+@media (max-width: 991.98px) { 
+    .parent{
+      position:absolute;
+      z-index: 0;
+      overflow:hidden;
+    }
+    .parent2{
+      z-index: 1;
+      background: rgba(255, 255, 255, 0.77);
+      backdrop-filter: blur(6.1px);
+      -webkit-backdrop-filter: blur(6.1px);
+    }
+   }
