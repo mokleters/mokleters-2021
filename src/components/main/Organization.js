@@ -334,7 +334,7 @@ const Carousel = () => (
     items={items}
     responsive={responsive}
     controlsStrategy="alternate"
-    // autoPlay={true}
+    autoPlay={true}
     autoPlayInterval={5000}
     infinite={true}    
   />

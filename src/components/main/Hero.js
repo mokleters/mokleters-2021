@@ -2,7 +2,7 @@ import React from "react";
 import "../../css/Hero.scoped.css";
 
 import logo from "../../assets/hero/hero-logo.svg";
-import video from "../../assets/videos/dummy-video.mp4";
+import video from "../../assets/videos/Hero.mp4";
 import Navbar from "./Navbar";
 
 export default class Hero extends React.Component {
