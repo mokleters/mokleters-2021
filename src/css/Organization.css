@@ -223,12 +223,17 @@ section{
     border-top: none;
     border-radius: 5px!important;
 }
-.modal-header{
+/* .modal-header{
     border: none !important; 
-    border-top: #D75252 solid 5px !important;
-    border-width: 100% !important;
+    border-top-width: 3px!important;
+    border-top-color: #D85252!important;
     border-radius: 4px 4px 0 0 !important;  
-    padding: 0;       
+    padding: 0;     
+} */
+
+.modal-header {
+    border: 100px!important; 
+    border-top: 13px solid #d75252!important;
 }
 .modal h1{
     font-size: 5vh;
