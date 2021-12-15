@@ -1,12 +1,12 @@
 /* >>>>>>>>>>>>>>>>> ABOUT <<<<<<<<<<<<<<<<< */
-
 .about{
     margin: 0;
-    margin-top: -211px;
+    margin-top: -67px;
+    margin-bottom: -2px;
     padding: 0;
     color: #FFFFFF;
     width: 100%;
-    height: 60.3vh;
+    height: 74.3vh;
     box-sizing: border-box;
     position: relative !important;
 }
@@ -25,7 +25,7 @@
 }
 .about .container{
     padding: 0;
-    margin: 22vh 0;
+    margin: 67px 0;
     width: 100%;
     min-height: auto;
     display: flex;
@@ -58,6 +58,25 @@
 .about .overlay{
     position: absolute;
     margin: 25vh 24vw;
- 
 }
 /* >>>>>>>>>>>>>>> END ABOUT <<<<<<<<<<<<<<<< */
+
+@media (max-width: 600px) {
+    /* >>>>>>>>>>>>>> ABOUT */
+    .about h1{
+        font-size: 40px;        
+    }
+    .about p{
+        font-size: 15px;
+    }
+}  
+@media (max-width: 450px) {
+    
+    /* >>>>>>>>>>>>>> ABOUT */
+    .about h1{
+        font-size: 30px;
+    }
+    .about p{
+        font-size: 12px;
+    }
+}

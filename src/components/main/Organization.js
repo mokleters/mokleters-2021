@@ -1,27 +1,27 @@
 import React from "react";
-import osis from '../assets/organization/osis.jpg';
-import mpk from '../assets/organization/mpk.png';
-import pustel from '../assets/organization/pustel.png'
-import metic from '../assets/organization/metic.jpeg';
-import bdi from '../assets/organization/bdi.png';
-import comet from '../assets/organization/comet.png';
-import da from '../assets/organization/da.png';
-import mac from '../assets/organization/mac.png';
-import memo from '../assets/organization/memo.png';
-import palwaga from '../assets/organization/palwaga.png';
-import paskatema from '../assets/organization/paskatema.png';
-import pmr from '../assets/organization/pmi.png';
-import pmr1 from '../assets/organization/pmi-1.png';
-import tsbc from '../assets/organization/tsbc.png';
-import tscc from '../assets/organization/tscc.png';
-import tsfc from '../assets/organization/tsfc.png';
-import tsvc from '../assets/organization/tsvc.jpg';
+import osis from '../../assets/organization/osis.jpg';
+import mpk from '../../assets/organization/mpk.png';
+import pustel from '../../assets/organization/pustel.png'
+import metic from '../../assets/organization/metic.jpeg';
+import bdi from '../../assets/organization/bdi.png';
+import comet from '../../assets/organization/comet.png';
+import da from '../../assets/organization/da.png';
+import mac from '../../assets/organization/mac.png';
+import memo from '../../assets/organization/memo.png';
+import palwaga from '../../assets/organization/palwaga.png';
+import paskatema from '../../assets/organization/paskatema.png';
+import pmr from '../../assets/organization/pmi.png';
+import pmr1 from '../../assets/organization/pmi-1.png';
+import tsbc from '../../assets/organization/tsbc.png';
+import tscc from '../../assets/organization/tscc.png';
+import tsfc from '../../assets/organization/tsfc.png';
+import tsvc from '../../assets/organization/tsvc.jpg';
 
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import bodyModalMPK from '../assets/organization/modal-body.png';
+import bodyModalMPK from '../../assets/organization/modal-body.png';
 
-import '../css/Organization.css';
+import '../../css/Organization.css';
 
 
 //Menggunakan penamaan yang cukup unik seperti cardd
@@ -334,7 +334,7 @@ const Carousel = () => (
     items={items}
     responsive={responsive}
     controlsStrategy="alternate"
-    // autoPlay={true}
+    autoPlay={true}
     autoPlayInterval={5000}
     infinite={true}    
   />

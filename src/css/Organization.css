@@ -219,28 +219,31 @@ section{
     background-image: url(../assets/organization/Fire3.jpg) !important;
     background-size: cover;
 }
-
-.modal{
-    display: block;
-}
 .modal-content{
     border-top: none;
     border-radius: 5px!important;
 }
-.modal-dialog{
-     
-}
-.modal-header{
+/* .modal-header{
     border: none !important; 
-    border-top: #D75252 solid 5px !important;
-    border-width: 100% !important;
+    border-top-width: 3px!important;
+    border-top-color: #D85252!important;
     border-radius: 4px 4px 0 0 !important;  
-    padding: 0;       
+    padding: 0;     
+} */
+
+.modal-header {
+    border: 100px!important; 
+    border-top: 13px solid #d75252!important;
 }
 .modal h1{
     font-size: 5vh;
     text-align: center;
     margin-bottom: 20px;
+    font-family: Varsity;
+    color: #D75252;
+    font-style: normal;
+    line-height: 52px;
+    letter-spacing: 0.08em;
 }
 .modal-footer{
     border: none !important;
@@ -425,6 +428,9 @@ section{
         width: 200px;
         margin: 0 30vw;        
     }
+    .modal-logo{
+        margin: 45px 37.7% !important;
+    }
         /* CUSTOM CARD LOGO - IMG KARENA BEDA UKURAN */
         .pustel-img{
             width: 100px !important;
@@ -448,7 +454,7 @@ section{
         .pmr-img{
             width: 150px !important;
             height: 90px !important;
-            margin: 49px 7% !important;
+            margin: 49px 8% !important;
         }
         .tsbc-img{
             width: 150px !important;
@@ -470,9 +476,41 @@ section{
             height: 100px !important;
             margin: 40px 17% !important;
         }
+        .modal-metic{
+            height: 70px;
+            margin: 7vh 23%;
+        }
+        .modal-pustel{
+            margin: 7vh 33%;
+        }
+        .modal-mac{
+            margin: 4vh 30%;
+        }
+        .modal-palwaga{
+            margin: 4vh 37%;
+        }
+        .modal-pmr{
+            margin: 4vh 41%;
+        }
+        .modal-tsbc{
+            margin: 4vh 35%;
+        }
+        .modal-tscc{
+            margin: 4vh 30%;
+        }
+        .modal-tsfc{
+            margin: 4vh 28%;
+        }
+        .modal-tsvc{
+            height: 150px;
+            margin: 4vh 39%;
+        }
         /* ============= END ============ */  
 }
 @media screen and (max-width: 480px){
+    .modal-logo{
+        margin: 40px 35% !important;
+    }    
     .cardd{
         width: 200px;
         margin: 0 28vw;        
@@ -491,8 +529,38 @@ section{
     .alice-carousel__dots-item.__active{        
         width: 30px !important;
     }
+    .modal-metic{
+        margin: 7vh 9%;
+    }
+    .modal-pustel{
+        margin: 7vh 29%;
+    }
+    .modal-mac{
+        margin: 4vh 26%;
+    }
+    .modal-palwaga{
+        margin: 4vh 35%;
+    }
+    .modal-pmr{
+        margin: 4vh 38%;
+    }
+    .modal-tsbc{
+        margin: 4vh 33%;
+    }
+    .modal-tscc{
+        margin: 4vh 27%;
+    }
+    .modal-tsfc{
+        margin: 4vh 23%;
+    }
+    .modal-tsvc{
+        margin: 4vh 36%;
+    }
 }
 @media screen and (max-width: 370px){
+    .modal-logo{
+        margin: 40px 29.5% !important;
+    } 
     .cardd{
         width: 200px;
         margin: 0 22vw;        

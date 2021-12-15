@@ -33,7 +33,7 @@
     z-index: 888;
     color: #fff;
     width: 70%;
-    margin-top: 50px;
+    margin-top: 30px;
     display: none;
   }
   
@@ -64,8 +64,8 @@
 .arrow {
   width: 40px;
   height: 40px;
-  top: 50%;
-  margin: 400px 0 0 -25px;
+  top: 40%;
+  margin: 50vh 0 0 -25px;
   -webkit-transform: rotate(45deg);
   border-left: none;
   border-top: none;
@@ -94,3 +94,30 @@
     transform: translate(-10px, -10px); } }
 
 /* >>>>>>>>>>>>>>>> END HERO <<<<<<<<<<<<<<<<< */
+
+@media (max-width: 1400px) {
+  .hero h1{
+      font-size: 55px;
+  }
+}
+
+@media (max-width: 766px) {
+  .hero h1{
+      font-size: 45px;
+  }
+  .hero-logo{
+      width: 30vw;
+      margin-left: 3vw;
+  }
+}
+@media (max-width: 600px) {
+  .hero h1{
+      font-size: 35px;
+      line-height: 50px;
+  }
+  .arrow{
+      width: 30px;
+      height: 30px;
+      left: 52%;
+  }
+}  
