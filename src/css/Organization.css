@@ -1,0 +1,500 @@
+section{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.organization{
+    width: 100%;
+    height: 100vh;
+    background: #2f2f2f;   
+}
+.orga{    
+    margin-bottom: -140px !important;
+    /* SEMENTARA */
+}
+.containerr{
+    margin: 150px 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.alice-carousel__next-btn-item,
+.alice-carousel__prev-btn-item{
+    display: none !important;    
+}
+.alice-carousel__dots-item,
+.alice-carousel__dots-item.__active{
+    margin-top: 55px !important;
+    border-radius: 0 !important;
+    height: 5px !important;
+    transition: .7s !important;
+}
+.alice-carousel__dots-item{
+    background-color: #808080 !important;
+    width: 37px !important;
+}
+.alice-carousel__dots-item.__active{
+    background-color: #D75252 !important;
+    width: 59px !important;
+}
+.cardd{
+    width: 300px;
+    height: 400px;
+    margin: 0 20%;
+    background-color: #fff;
+    transition: .5s;
+    
+}
+.atas{
+    border-top: #D75252 solid 20px;
+    opacity: 0;
+}
+.cardd p,h3,span{
+    transition: .5s;
+}
+.cardd span{
+    opacity: 0;
+    color: #D75252;
+}
+.cardd .cardd-img{
+    width: 300px;
+    height: 170px;
+    overflow: hidden;
+}
+
+.cardd-img img{
+    height: 100px;
+    margin: 50px 33%;
+}
+/* CUSTOM CARD LOGO - IMG KARENA BEDA UKURAN */
+
+.pustel-img{
+    margin: 50px 28% !important;
+}
+
+.metic-img{
+    width: 250px;
+    margin: 50px 10% !important;
+}
+.mac-img{
+    width: 500px !important;
+    height: 500px !important;
+    margin: 20px 0% !important;
+}
+.palwaga-img{
+    width: 300px !important;
+    height: 130px !important;
+    margin: 40px 0% !important;
+}
+.pmr-img{
+    width: 300px !important;
+    height: 120px !important;
+    margin: 50px 0% !important;
+}
+.tsbc-img{
+    width: 300px !important;
+    height: 120px !important;
+    margin: 50px 0% !important;
+}
+.tscc-img{
+    width: 200px !important;
+    height: 300px !important;
+    margin: 25px 16% !important;
+}
+.tsfc-img{
+    margin: 50px 25% !important;
+}
+.tsvc-img{
+    width: 100px !important;
+    height: 200px !important;
+    margin: 15px 33% !important;
+}
+.modal-metic{
+    height: 90px;
+    margin: 7vh 50px;
+}
+.modal-pustel{
+    height: 130px;
+    margin: 7vh 148px;
+}
+.modal-mac{
+    height: 200px;
+    margin: 4vh 135px;
+}
+.modal-palwaga{
+    height: 200px;
+    margin: 4vh 175px;
+}
+.modal-pmr{
+    height: 150px;
+    margin: 4vh 189px;
+}
+.modal-tsbc{
+    height: 150px;
+    margin: 4vh 156px;
+}
+.modal-tscc{
+    height: 200px;
+    margin: 4vh 135px;
+}
+.modal-tsfc{
+    height: 150px;
+    margin: 4vh 117px;
+}
+.modal-tsvc{
+    height: 200px;
+    margin: 4vh 155px;
+}
+/* ============= END ============ */
+.cardd-body{
+    height: 200px;    
+    text-align: justify;
+    padding: 20px;
+}
+
+.backgroundd{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(../assets/organization/background.png);  
+    transition: .6s;  
+}
+
+.cardd:hover{
+    transform: translateY(-13px);  
+}
+.cardd:hover p{
+    transform: translateY(-10px);    
+    transition: .5s;
+}
+.cardd:hover h3{
+    transform: translateY(-10px);    
+    transition: .5s;
+}
+.cardd:hover span{
+    opacity: 1; 
+    transition: .5s;
+}
+.cardd:hover .atas{
+    opacity: 1;
+    transition: .9s;
+}
+
+/* Untuk card hover dan background akan berubah */
+/* kelihatanya .cardd:nth-child():hover ~ .backgroundd 
+ tidak kedetect 
+ 
+ karena errornya atau bug muncul setelah
+ menggunakan carousel 
+ 
+ dimana yang sebelumnya card di dalam
+ render sekarang ada di function carousel - items[] */
+.cardd:nth-child(1):hover ~ .backgroundd{
+    background-image: url(../assets/organization/Fire.jpg) !important;
+    background-size: cover !important;
+}
+.cardd:nth-child(2):hover ~ .backgroundd{
+    background-image: url(../assets/organization/Fire2.jpg) !important;
+    background-size: cover;
+}
+.cardd:nth-child(3):hover ~ .backgroundd{
+    background-image: url(../assets/organization/Fire3.jpg) !important;
+    background-size: cover;
+}
+.cardd:nth-child(4):hover ~ .backgroundd{
+    background-image: url(../assets/organization/Fire.jpg) !important;
+    background-size: cover !important;
+}
+.cardd:nth-child(5):hover ~ .backgroundd{
+    background-image: url(../assets/organization/Fire2.jpg) !important;
+    background-size: cover;
+}
+.cardd:nth-child(6):hover ~ .backgroundd{
+    background-image: url(../assets/organization/Fire3.jpg) !important;
+    background-size: cover;
+}
+
+.modal{
+    display: block;
+}
+.modal-content{
+    border-top: none;
+    border-radius: 5px!important;
+}
+.modal-dialog{
+     
+}
+.modal-header{
+    border: none !important; 
+    border-top: #D75252 solid 5px !important;
+    border-width: 100% !important;
+    border-radius: 4px 4px 0 0 !important;  
+    padding: 0;       
+}
+.modal h1{
+    font-size: 5vh;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.modal-footer{
+    border: none !important;
+    background-image: url(../assets/organization/modal-footer.png);
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    width: 480px;
+    background-size: cover;
+}
+.modal-logo{
+    height: 120px;
+    margin: 7vh 170px;
+}
+@media screen and (max-width: 1270px){
+    .cardd{
+        margin: 0 5vw;
+    }  
+} 
+@media screen and (max-width: 1024px){
+    .cardd{
+        margin: 0 10vw;
+    }  
+} 
+@media screen and (max-width: 960px){    
+    .cardd{
+        width: 200px;
+        margin: 0 13vw;
+    }    
+    .cardd-img img{
+        width: 75px;
+        margin: 50px 60px;
+    }
+    /* CUSTOM CARD LOGO - IMG KARENA BEDA UKURAN */
+    .pustel-img{
+        margin: 50px 22% !important;
+    }
+
+    .metic-img{
+        width: 140px !important;
+        margin: 50px 10% !important;
+    }
+    .mac-img{
+        width: 120px !important;
+        height: 120px !important;
+        margin: 40px 14% !important;
+    }
+    .palwaga-img{
+        width: 200px !important;
+        height: 100px !important;
+        margin: 50px 0% !important;
+    }
+    .pmr-img{
+        width: 200px !important;
+        height: 100px !important;
+        margin: 55px 0% !important;
+    }
+    .tsbc-img{
+        width: 200px !important;
+        height: 110px !important;
+        margin: 50px 0% !important;
+    }
+    .tscc-img{
+        width: 130px !important;
+        height: 300px !important;
+        margin: 25px 13% !important;
+    }
+    .tsfc-img{
+        width: 130px !important;
+        height: 300px !important;
+        margin: 22px 12% !important;
+    }
+    .tsvc-img{
+        width: 100px !important;
+        height: 200px !important;
+        margin: 15px 16% !important;
+    }
+    /* ============= END ============ */
+    .varsity-text{    
+        font-size: 45px;
+    }
+    .alice-carousel__dots-item,
+    .alice-carousel__dots-item.__active{
+        margin-top: 45px !important;        
+        height: 4px !important;        
+    }
+    .alice-carousel__dots-item{        
+        width: 27px !important;
+    }
+    .alice-carousel__dots-item.__active{        
+        width: 49px !important;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .cardd{
+        width: 170px;
+        margin: 0 13vw;        
+    }    
+    .cardd-body{
+        padding-top: 0;
+    }
+    .cardd-img img{
+        width: 65px;        
+        margin: 50px 51px;   
+    }
+    .cardd span{
+        opacity: 1;         
+    }
+    .cardd atas{
+        opacity: 1;
+    }
+    /* CUSTOM CARD LOGO - IMG KARENA BEDA UKURAN */
+    .pustel-img{
+        margin: 50px 17% !important;
+    }
+
+    .metic-img{
+        width: 110px !important;
+        margin: 50px 10% !important;
+    }
+    .mac-img{
+        width: 100px !important;
+        height: 100px !important;
+        margin: 45px 12% !important;
+    }
+    .palwaga-img{
+        width: 110px !important;
+        height: 90px !important;
+        margin: 50px 9% !important;
+    }
+    .pmr-img{
+        width: 150px !important;
+        height: 80px !important;
+        margin: 55px 3% !important;
+    }
+    .tsbc-img{
+        width: 150px !important;
+        height: 90px !important;
+        margin: 50px 4% !important;
+    }
+    .tscc-img{
+        width: 100px !important;
+        height: 200px !important;
+        margin: 20px 12% !important;
+    }
+    .tsfc-img{
+        width: 100px !important;
+        height: 300px !important;
+        margin: 20px 12% !important;
+    }
+    .tsvc-img{
+        width: 100px !important;
+        height: 100px !important;
+        margin: 40px 12% !important;
+    }
+    /* ============= END ============ */
+    .cardd .cardd-img{
+        height: 160px;
+    }    
+    .varsity-text{    
+        font-size: 45px;
+    }
+    .alice-carousel__dots-item,
+    .alice-carousel__dots-item.__active{
+        margin-top: 35px !important;        
+        height: 4px !important;        
+    }
+    .alice-carousel__dots-item{        
+        width: 25px !important;
+    }
+    .alice-carousel__dots-item.__active{        
+        width: 44px !important;
+    }
+}
+@media screen and (max-width: 568px){
+    .cardd-img img{
+        width: 65px;        
+        margin: 50px 70px;   
+    }
+    .cardd{
+        width: 200px;
+        margin: 0 30vw;        
+    }
+        /* CUSTOM CARD LOGO - IMG KARENA BEDA UKURAN */
+        .pustel-img{
+            width: 100px !important;
+            margin: 45px 17% !important;
+        }
+    
+        .metic-img{
+            width: 160px !important;
+            margin: 50px 7% !important;
+        }
+        .mac-img{
+            width: 100px !important;
+            height: 100px !important;
+            margin: 45px 16% !important;
+        }
+        .palwaga-img{
+            width: 110px !important;
+            height: 90px !important;
+            margin: 50px 13% !important;
+        }
+        .pmr-img{
+            width: 150px !important;
+            height: 90px !important;
+            margin: 49px 7% !important;
+        }
+        .tsbc-img{
+            width: 150px !important;
+            height: 90px !important;
+            margin: 50px 7% !important;
+        }
+        .tscc-img{
+            width: 130px !important;
+            height: 200px !important;
+            margin: 20px 12% !important;
+        }
+        .tsfc-img{
+            width: 130px !important;
+            height: 300px !important;
+            margin: 17px 12% !important;
+        }
+        .tsvc-img{
+            width: 100px !important;
+            height: 100px !important;
+            margin: 40px 17% !important;
+        }
+        /* ============= END ============ */  
+}
+@media screen and (max-width: 480px){
+    .cardd{
+        width: 200px;
+        margin: 0 28vw;        
+    }
+    .varsity-text{
+        font-size: 30px;
+    }
+    .alice-carousel__dots-item,
+    .alice-carousel__dots-item.__active{
+        margin-top: 30px !important;        
+        height: 2.7px !important;        
+    }
+    .alice-carousel__dots-item{        
+        width: 17px !important;
+    }
+    .alice-carousel__dots-item.__active{        
+        width: 30px !important;
+    }
+}
+@media screen and (max-width: 370px){
+    .cardd{
+        width: 200px;
+        margin: 0 22vw;        
+    }
+}
