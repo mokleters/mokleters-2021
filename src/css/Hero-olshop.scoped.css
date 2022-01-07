@@ -1,15 +1,15 @@
 
 /* >>>>>>>>>>>>>>>>>> HERO <<<<<<<<<<<<<<<<<< */
-.hero h1{
+#hero h1{
     font-size: 72;
     line-height: 78px;
     color: #FFFFFF;
     left:50%;
 }
-.hero span{
+#hero span{
     color: #D75252;
 }
-  .hero{
+  #hero{
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -18,18 +18,18 @@
     flex-direction: column;
   }
   
-  .hero:before{
+  #hero:before{
     z-index: 777;
-    content: '';
+    content: "";
     position: absolute;
-    background: rgba(49, 49, 49, 0.3);
+    background: rgba(0,0,0,.534);
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
   }
   
-  .hero .content{
+  #hero .content{
     z-index: 888;
     color: #fff;
     width: 70%;
@@ -37,16 +37,12 @@
     display: none;
   }
   
-  .hero .content{
+  #hero .content{
     display: block;
     margin-left: 15vw;
   }
   
-  .hero-logo{
-    width: 100%;
-    max-width: 300px;
-  }
-  .hero img{
+  #hero img{
     z-index: 000;
     position: absolute;
     top: 0;

@@ -2,23 +2,23 @@
     margin-bottom: auto;
     margin-top: auto;
     height: 60px;
-    background-color: #F3F4F8;
+    background-color: #f3f4f8;
     border-radius: 6px;
     padding: 10px;
     }
 
     .search_input{
-    color: #A8ADB3;
+    color: #a8adb3;
     border: 0;
     outline: 0;
     background: none;
     width: 0;
-    caret-color:transparent;
+    caret-color: transparent;
     line-height: 40px;
-    transition: width 0.4s linear;
-     padding: 0 10px;
+    transition: width .4s linear;
+    padding: 0 10px;
     width: 316px;
-    caret-color:red;
+    caret-color: red;
     }
     
     .searchbar:hover > .search_icon{
@@ -34,20 +34,42 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color:#808080;
-    text-decoration:none;
+    color: grey;
+    text-decoration: none;
     }
 
 .table>:not(caption)>*>* {
     padding: 0.5rem 0.5rem 0rem 0rem;
 }
 
-.pl-cs {
-    padding-left: 50px;
+.card {
+    width: 18rem;
+    border: none;
 }
 
-@media (max-width: 800px) {
-    .pl-cs {
-        padding: 15px;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.card-text{
+    color: #000;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.card-text span{
+    color: #000;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    .search_input{
+        width: 200px;
     }
 }

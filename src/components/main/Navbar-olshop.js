@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import logo from "../../assets/hero/hero-logo.svg";
 import video from "../../assets/videos/dummy-video.mp4";
@@ -9,15 +9,13 @@ import twt from "../../assets/footer/twt.png";
 import tiktok from "../../assets/footer/tiktok.png";
 import yt from "../../assets/footer/yt.png";
 import line from "../../assets/hero/line.png";
-import navLogo from "../../assets/navbar/nav-logo.png";
+import navLogo from "../../assets/navbar/logo-white.png";
 import "../../css/navbar.scoped.css";
 
-
-
-function navbarOlshop() {
+function Navbar() {
   const [navbar, setNavbar] = useState(false);
   const [brand, setBrand] = useState(false);
-  
+
   const changeBackground = () => {
     if (window.scrollY >= 50) {
       setNavbar(true);
@@ -43,23 +41,25 @@ function navbarOlshop() {
           >
             <div class="container-fluid">
               <span
-                class="navbar-toggler-icon mx-2"
+                class="nav-item navbar-item navbar-toggler-icon mx-2"
                 type="button"
                 data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar"
               >
-                <p class="navbar-item text-white px-4 mx-2">Menu</p>
+                <p class="nav-item navbar-item menu shop text-white px-4 mx-2">
+                  Menu
+                </p>
               </span>
               <ul class="navbar-nav brand">
                 {brand ? (
-                  <img class="nav-logo" src={navLogo} alt="" width="50%" />
+                  <img class="nav-logo" src={navLogo} alt="" width="50px" />
                 ) : (
                   <li class="navbar-brand">MOKLETERS</li>
                 )}
               </ul>
-              <ul class="navbar-nav right-item navbar-right text-white">
-                <li class="nav-item navbar-item px-5 mx-3">Login</li>
+              <ul class="navbar-nav login right-item navbar-right text-white">
+                <li class="nav-item navbar-item px-5">Login</li>
               </ul>
               <div
                 class="offcanvas offcanvas-start"
@@ -78,43 +78,13 @@ function navbarOlshop() {
                 <div class="offcanvas-body">
                   <ul class="sidebar-nav justify-content-start">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="/">
+                      <a class="nav-link" aria-current="page" href="#hero">
                         HOME
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#about">
-                        ABOUT
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#bombi">
-                        BOMBI
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">
-                        ORGANIZATIONS
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#olshop">
-                        SHOP
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#blog">
-                        BLOG
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="/links">
-                        LINKS
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="/olshop">
-                        OLSHOP
+                      <a class="nav-link" aria-current="page" href="#product">
+                        PRODUCT
                       </a>
                     </li>
                   </ul>
@@ -154,4 +124,4 @@ function navbarOlshop() {
     </>
   );
 }
-export default navbarOlshop;
+export default Navbar;

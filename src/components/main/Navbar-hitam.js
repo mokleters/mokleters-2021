@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import ig from "../../assets/footer/ig.png";
 import twt from "../../assets/footer/twt.png";
@@ -9,17 +9,12 @@ import line from "../../assets/hero/line.png";
 import navLogo from "../../assets/navbar/nav-logo.png";
 import "../../css/navbar-hitam.scoped.css";
 
-
-
 function Navbar() {
-
   return (
     <>
       <section id="navbar">
         <div class="navbar-container">
-          <nav
-            class="navbar active navbar-dark"
-          >
+          <nav class="navbar active navbar-dark">
             <div class="container-fluid">
               <span
                 class="navbar-toggler-icon mx-2"
@@ -31,7 +26,7 @@ function Navbar() {
                 <p class="navbar-item text-white px-4 mx-2">Menu</p>
               </span>
               <ul class="navbar-nav brand">
-                  <img class="nav-logo" src={navLogo} alt="" width="50%" />
+                <img class="nav-logo" src={navLogo} alt="" width="50%" />
               </ul>
               <ul class="navbar-nav right-item navbar-right text-white">
                 <li class="nav-item navbar-item px-5 mx-3">Login</li>

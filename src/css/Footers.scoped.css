@@ -1,15 +1,36 @@
+.container {
+    padding-right: 2rem!important;
+    padding-left: 2rem!important;
+}
+
 li a {
   text-decoration: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.d-flex {
+  align-items: center !important;
+}
+
 .mokleters-text {
-  font-family: Poppins;
+  font-family: Varsity;
   font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 25px;
   line-height: 36px;
+  letter-spacing: .08em;
   color: #FFFFFF;
+}
+
+ul {
+  margin-bottom: 0 !important;
+}
+
+.col {
+  margin-bottom: 50px;
+}
+
+.nav-link {
+  font-size: 15px !important;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -17,7 +38,41 @@ li a {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 300;
-  font-size: 13px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 24px;
   color: #FFFFFF;
+}
+
+small {
+  font-size: 13px;
+}
+
+@media (min-width: 768px){
+.sitemap {
+    padding-left: 50px;
+}
+}
+
+@media (min-width: 992px){
+  .row{
+    display: grid !important;
+    grid-template-areas: "f1 f2 f3 f4";
+    grid-template-columns: auto;
+  }
+  .col-md-5{
+    grid-area: f1;
+    width: auto !important;
+  }
+  .sitemap{
+    padding-left: 200px;
+    grid-area: f2;
+  }
+  .contact{
+    padding-left: 60px;
+    grid-area: f3;
+  }
+  .about{
+    padding-left: 60px;
+    grid-area: f4;
+  }
 }

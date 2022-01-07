@@ -1,77 +1,86 @@
 .navbar{
   background-color: transparent;
-  transition: .5s;
+  transition: .6s;
+  padding-top: 2rem
 }
 
 .navbar.active {
-  background-color: black;
+  background-color: #000;
+  padding-top: 0.5rem
+}
+
+.container-fluid {
+  display: grid!important;
+  grid-template-areas: "n1 n2 n3"!important;
+  grid-template-columns: 33% 33% 33%!important;
+}
+
+.navbar-toggler-icon {
+grid-area: n1;
 }
 
 .navbar-nav {
-    flex-direction: row;
-    margin: 10px;
-  }
-  
-  .nav-logo {
-    margin-left: 7vh;
-    transition: .5s;
+transition: .6s;
+flex-direction: row;
+display: flex;
+justify-content: center;
+}
+
+.nav-item.navbar-item.menu {
+  margin-top: 0;
+  display: inline;
+} 
+
+.nav-logo {
+  transition: .5s;
+}
+
+.navbar-nav.login{
+  opacity: 0;
+  grid-area: n3;
+}
+
+.navbar-nav.brand {
+  grid-area: n2;
+}
+
+.nav-link {
+  color: #969696;
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap');
+.sidebar-nav{
+  list-style: none;
+  padding-left: 0px !important;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 42.19px;
+}
+
+.offcanvas-header{
+  padding-bottom: 0px !important;
+}
+
+.offcanvas-body{
+  margin: 0px;
+}
+
+.nav-link:hover{
+  color: white;
+}
+
+.offcanvas{
+  background-color: #333333;
+}
+
+@media (max-width: 800px) {
+  .nav-item.navbar-item.menu{
+    display: none;
   }
 
-  .navbar-brand {
-    margin-left: 10vh;
+  .line{
+    width: 80%;
   }
-  
-  .nav-link {
-    color: #969696;
-    text-decoration: none;
-  }
-  
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap');
-  .sidebar-nav{
-    list-style: none;
-    padding-left: 0px !important;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 42.19px;
-  }
-  
-  .offcanvas-header{
-    padding-bottom: 0px !important;
-  }
-  
-  .offcanvas-body{
-    margin: 0px;
-  }
-  
-  .nav-link:hover{
-    color: white;
-  }
-  
-  .offcanvas{
-    background-color: #333333;
-  }
-  
-  @media (max-width: 800px) {
-    .navbar-item {
-      display: none;
-    }
-  
-    .nav-logo {
-      margin-left: -1vh;
-    }
+}
 
-    .navbar-brand{
-      margin-left: -2vh;
-    }
-  
-    .line{
-      width: 80%;
-    }
-  }
-  
-  @media (min-width: 800px){
-    .nav-item-alt{
-      display: none;
-    }
-  }
-  
