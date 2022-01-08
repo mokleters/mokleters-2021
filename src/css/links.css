@@ -1,0 +1,27 @@
+.links{
+    width: 100%;
+    height: 100%;
+  }
+  
+  h2{
+    margin-bottom: 0 !important;
+  }
+  
+  .mokleters-text{
+    font-size: 25px;
+  }
+  
+  @media (max-width:354px ){
+    .mokleters-text{
+      font-size: 15px;
+    }
+  }
+  
+  /* .col-sm-12 col-md-6 p-5 glass my-5{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  } */
+  
+  .d-flex{
+    align-items: center !important;
+  }

@@ -49,6 +49,19 @@ justify-content: center;
   text-decoration: none;
 }
 
+.nav-link:hover{
+  color: #D85252 !important;
+}
+
+.back:hover{
+  color: #D85252 !important;
+}
+
+.offcanvas-header .btn-close{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap');
 .sidebar-nav{
   list-style: none;
@@ -75,12 +88,7 @@ justify-content: center;
 }
 
 @media (max-width: 800px) {
-  .nav-item.navbar-item.menu{
-    display: none;
-  }
-
   .line{
     width: 80%;
   }
 }
-

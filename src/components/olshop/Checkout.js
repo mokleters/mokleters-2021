@@ -1,7 +1,8 @@
 import React from "react";
 
 import "../../css/olshop-page.scoped.css";
-import Image from "../../assets/olshop/dum.png";
+import Image1 from "../../assets/olshop/tshirt-hitam-front.jpg";
+import Image2 from "../../assets/olshop/tshirt-hitam-back.jpg";
 
 export default class Olshop extends React.Component {
   constructor() {
@@ -10,6 +11,7 @@ export default class Olshop extends React.Component {
       isShow: false,
       showOn: "test",
       showOff: "test",
+      front: true,
     };
   }
   render() {
@@ -17,29 +19,43 @@ export default class Olshop extends React.Component {
       <section id="checkout">
         <div className="container my-5">
           <div className="row">
-            <div className="col-12 col-lg-4">
-              <div className="col bg-secondary h-75">
-                <img src={Image} alt="Produk" className="image-fluid" />
+            <div className="col-12 col-lg-5">
+              <div className="col bg-white">
+                {this.state.front === true ? (
+                  <img src={Image1} alt="Produk" className="image-fluid" />
+                ) : (
+                  <img src={Image2} alt="Produk" className="image-fluid" />
+                )}
               </div>
               <div className="row mt-3">
-                <div className="col">
-                  <img src={Image} alt="Produk" className="image-fluid" />
+                <div className="col i">
+                  <img
+                    src={Image1}
+                    alt="Produk"
+                    className="image-fluid"
+                    width="70%"
+                    type="button"
+                    onClick={() => this.setState({ front: true })}
+                  />
                 </div>
-                <div className="col">
-                  <img src={Image} alt="Produk" className="image-fluid" />
-                </div>
-                <div className="col">
-                  <img src={Image} alt="Produk" className="image-fluid" />
-                </div>
-                <div className="col">
-                  <img src={Image} alt="Produk" className="image-fluid" />
+                <div className="col i">
+                  <img
+                    src={Image2}
+                    alt="Produk"
+                    className="image-fluid"
+                    width="70%"
+                    type="button"
+                    onClick={() => this.setState({ front: false })}
+                  />
                 </div>
               </div>
             </div>
-            <div className="col-12 col-lg-8 pl-cs">
-              <h1>MCMXCII T-Shirt</h1>
-              <small>Rp 99.000</small>
-              <p>
+            <div className="col-12 col-lg-7 pl-cs">
+              <h1 class="product-title">MCMXCII T-Shirt</h1>
+              <h3>
+                <bold>Rp 99.000</bold>
+              </h3>
+              <p class="product-description">
                 one heart, one way and one dream, holding hands together waving
                 the flag of passion. from small steps to eternal dreams, from a
                 voice to a great unity. Her passion and dreams carry a fire of
@@ -48,35 +64,35 @@ export default class Olshop extends React.Component {
               </p>
               <div className="border-1 border-top border-bottom pt-3">
                 <h5>Product Detail:</h5>
-                <div className="col-4">
+                <div>
                   <table class="table table-borderless">
                     <tbody>
-                      <tr>
-                        <th scope="row">Size:</th>
-                        <td>S, M, L, XL, XXL</td>
+                      <tr width="100%">
+                        <th width="10%" scope="row">
+                          Size:
+                        </th>
+                        <td width="90%">
+                          <b>S</b> | <b>M</b> | <b>L</b> | <b>XL</b>
+                        </td>
                       </tr>
-                      <tr>
-                        <th scope="row">Color:</th>
-                        <td>
+                      <tr width="100%">
+                        <th width="10%" scope="row">
+                          Color:
+                        </th>
+                        <td width="90%">
                           <ul class="list-group list-group-horizontal">
                             <li
                               class="list-group-item mx-1 rounded-0 border-0"
-                              style={{ background: "#D85252" }}
-                            />
-                            <li
-                              class="list-group-item mx-1 rounded-0 border-0"
-                              style={{ background: "#333333" }}
-                            />
-                            <li
-                              class="list-group-item mx-1 rounded-0 border-0"
-                              style={{ background: "#EDE8DC" }}
+                              style={{ background: "rgb(10, 10, 10)" }}
                             />
                           </ul>
                         </td>
                       </tr>
-                      <tr>
-                        <th scope="row">Category:</th>
-                        <td>Fashion</td>
+                      <tr width="10">
+                        <th width="10%" scope="row">
+                          Category:
+                        </th>
+                        <td width="90%">T-Shirt</td>
                       </tr>
                     </tbody>
                   </table>
@@ -91,12 +107,7 @@ export default class Olshop extends React.Component {
                         <i class="fa fa-arrow-up" /> See more...
                       </a>
                     </small>
-                    <p>
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life
-                      accusamus terry richardson ad squid. Nihil anim keffiyeh
-                      helvetica, craft beer labore wes anderson cred nesciunt
-                      sapiente ea proident.
-                    </p>
+                    <p>Material: Cotton Combed 24s</p>
                   </>
                 ) : (
                   <small>
@@ -110,9 +121,16 @@ export default class Olshop extends React.Component {
                 )}
               </div>
               <div className="col-3 my-2">
-                <h5>Contact Us:</h5>
-                <button className="btn btn-danger form-control p-0">
-                  <i class="fa fa-whatsapp" /> Whatsapp
+                <h5>Order:</h5>
+                <button className="btn order btn-danger form-control p-0">
+                  <a
+                    class="order-button"
+                    href="https://api.whatsapp.com/send?phone=6281234868146&text=Hi%2C%20Saya%20Mau%20Order%20T-Shirt%20Mokleters%20%21"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    <i class="fa fa-whatsapp" />
+                    <span> Whatsapp</span>
+                  </a>
                 </button>
               </div>
             </div>

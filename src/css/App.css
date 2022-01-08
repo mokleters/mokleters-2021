@@ -23,9 +23,9 @@
 }
 
 .bg-mokleters {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/footer/bg.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/links/links-bg.jpg");
   height: 50%;
-  background-position: 100% 35%;
+  background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

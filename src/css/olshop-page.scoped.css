@@ -68,6 +68,44 @@
     text-align: center;
 }
 
+.text-danger {
+    margin-bottom: 25px !important;
+}
+
+.product-title {
+    margin-top: 50px;
+}
+
+h1.product-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.product-description {
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.btn.order{
+    width: 150px;
+}
+
+.order-button{
+    font-size: 15px;
+}
+
+@media (max-width: 800px) {
+    .btn.order{
+    padding: 6px !important;
+}
+
+.pl-cs{
+    padding: 30px;
+}
+}
+
 @media (max-width: 400px) {
     .search_input{
         width: 200px;
