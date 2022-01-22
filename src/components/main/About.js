@@ -18,9 +18,9 @@ export default class About extends React.Component {
     return (
       <>
         {/* <h1 className="b-example-divider mb-0">About section</h1> */}
-        <section id="about" class="full-page">
+        <section id="about" class="">
           <div className="about">
-            <div class="container">
+            <div class="container vh-100">
               <div class="box">
                 <video
                   src={video}
