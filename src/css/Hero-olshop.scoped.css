@@ -1,5 +1,10 @@
 
 /* >>>>>>>>>>>>>>>>>> HERO <<<<<<<<<<<<<<<<<< */
+@font-face {
+  font-family: 'Varsity';
+  src: url('../assets/fonts/VarsityTeam-Bold.otf');
+}
+
 #hero h1{
     font-size: 72;
     line-height: 78px;

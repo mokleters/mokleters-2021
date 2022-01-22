@@ -18,44 +18,54 @@ export default class About extends React.Component {
     return (
       <>
         {/* <h1 className="b-example-divider mb-0">About section</h1> */}
-        <section id="about">
-          <div className="">
-            <div className="about">
-              <div class="container">
-                <div class="box">
-                  <video
-                    src={video}
-                    type="video/mp4"
-                    loop
-                    class="clip"
-                    muted
-                    onMouseOver={this.playMovie}
-                    onMouseOut={this.stopMovie}
-                  />
-                </div>
-                <div class="box">
-                  <video
-                    src={video}
-                    type="video/mp4"
-                    loop
-                    class="clip"
-                    muted
-                    onMouseOver={this.playMovie}
-                    onMouseOut={this.stopMovie}
-                  />
-                </div>
+        <section id="about" class="full-page">
+          <div className="about">
+            <div class="container">
+              <div class="box">
+                <video
+                  src={video}
+                  type="video/mp4"
+                  loop
+                  class="clip"
+                  muted
+                  onMouseOver={this.playMovie}
+                  onMouseOut={this.stopMovie}
+                />
+              </div>
+              <div class="box">
+                <video
+                  src={video}
+                  type="video/mp4"
+                  loop
+                  class="clip"
+                  muted
+                  onMouseOver={this.playMovie}
+                  onMouseOut={this.stopMovie}
+                />
+              </div>
 
-                <div class="overlay row h-300 align-items-center justify-content-center text-center">
-                  <div class="about-text align-self-end">
+              {/* <div class="content">
+                <div class="row d-flex justify-content-center text-center">
+                  <div class="about-text">
                     <h1 class="varsity-text">
                       ABOUT <span class="text-red">MOKLETERS</span>
                     </h1>
-                    <p>
+                    <p class="text-center">
                       Lorem Ipsum is simpley dummy text of the printing dummy
                     </p>
                   </div>
                 </div>
-                
+              </div> */}
+
+              <div class="content">
+                <div className="row d-flex text-center justify-content-center">
+                  <h1 class="varsity-text">
+                    ABOUT<span> MOKLETERS </span>
+                  </h1>
+                  <p class="text-center">
+                    Lorem Ipsum is simpley dummy text of the printing dummy
+                  </p>
+                </div>
               </div>
             </div>
           </div>

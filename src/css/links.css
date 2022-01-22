@@ -6,9 +6,16 @@
   h2{
     margin-bottom: 0 !important;
   }
+
+  @font-face {
+    font-family: 'Varsity';
+    src: url('../assets/fonts/VarsityTeam-Bold.otf');
+  }
   
   .mokleters-text{
+    font-family: Varsity;
     font-size: 25px;
+    letter-spacing: 0.08em;
   }
   
   @media (max-width:354px ){

@@ -10,19 +10,29 @@
     box-sizing: border-box;
     position: relative !important;
 }
-.about-text{
+
+.about h1{
+    font-size: 72;
+    line-height: 78px;
+    color: #FFFFFF;
+    left:50%;
+}
+
+.about span{
+    color: #D75252;
+}
+
+.content{
+    z-index: 2;
+    color: #fff;
+    width: 70%;
+    /* margin-top: 30px; */
+    position: absolute;
     top: 50%;
     left: 50%;
-}
-.about-text h1,p{
-    font-size: 50px;
-    color: #FFFFFF;
-}
-.about p{
-    width: 50vw;
-    font-size: 17px;
-    font-family: 'Inter', sans-serif;
-}
+    transform: translate(-50%, -50%);
+  }
+
 .about .container{
     padding: 0;
     margin: 67px 0;
@@ -55,28 +65,11 @@
     width: 30px;
     margin-top: 25vh;
 }
-.about .overlay{
+
+.content{
     position: absolute;
-    margin: 25vh 24vw;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
 }
 /* >>>>>>>>>>>>>>> END ABOUT <<<<<<<<<<<<<<<< */
-
-@media (max-width: 600px) {
-    /* >>>>>>>>>>>>>> ABOUT */
-    .about h1{
-        font-size: 40px;        
-    }
-    .about p{
-        font-size: 15px;
-    }
-}  
-@media (max-width: 450px) {
-    
-    /* >>>>>>>>>>>>>> ABOUT */
-    .about h1{
-        font-size: 30px;
-    }
-    .about p{
-        font-size: 12px;
-    }
-}

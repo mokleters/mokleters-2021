@@ -33,6 +33,10 @@ ul {
   font-size: 15px !important;
 }
 
+.nav-link:hover{
+  color: #D75252 !important;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .text-desc-footer {
   font-family: Montserrat;

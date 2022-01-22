@@ -1,5 +1,10 @@
 
 /* >>>>>>>>>>>>>>>>>> HERO <<<<<<<<<<<<<<<<<< */
+@font-face {
+  font-family: 'Varsity';
+  src: url('../assets/fonts/VarsityTeam-Bold.otf');
+}
+
 .hero h1{
     font-size: 72;
     line-height: 78px;
@@ -19,7 +24,7 @@
   }
   
   .hero:before{
-    z-index: 777;
+    z-index: 1;
     content: '';
     position: absolute;
     background: rgba(49, 49, 49, 0.3);
@@ -29,17 +34,15 @@
     left: 0;
   }
   
-  .hero .content{
-    z-index: 888;
+  .content{
+    z-index: 2;
     color: #fff;
     width: 70%;
-    margin-top: 30px;
-    display: none;
-  }
-  
-  .hero .content{
-    display: block;
-    margin-left: 15vw;
+    /* margin-top: 30px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
   .hero-logo{
@@ -55,7 +58,15 @@
     height: 900px;
     object-fit: cover;
   }
-.arrow,
+
+  .arrow{
+    z-index: 7;
+    position: absolute;
+    left: 50%;
+    bottom: 4%;
+    transform: translate(-50%,-4%);
+  }
+/* .arrow,
 .arrow:before {
   position: absolute;
 }
@@ -68,9 +79,6 @@
   border-top: none;
   border-right: 2px #fff solid;
   border-bottom: 2px #fff solid;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 .arrow:before {
@@ -93,11 +101,13 @@
     opacity: 1; }
   100% {
     opacity: 0;
-    transform: translate(-10px, -10px); } }
+    transform: translate(-10px, -10px); } } */
+
+
 
 /* >>>>>>>>>>>>>>>> END HERO <<<<<<<<<<<<<<<<< */
 
-@media (max-width: 1400px) {
+/* @media (max-width: 1400px) {
   .hero h1{
       font-size: 55px;
   }
@@ -122,4 +132,4 @@
       height: 30px;
       left: 52%;
   }
-}  
+}   */

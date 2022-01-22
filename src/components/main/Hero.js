@@ -10,14 +10,14 @@ export default class Hero extends React.Component {
   // video tidak mau play
   playMovie = (e) => {
     e.target.play();
-    console.log("on");
+    // console.log("on");
   };
   render() {
     return (
       <>
         {/* <h1 className="b-example-divider mb-0">Hero section</h1> */}
         <Navbar />
-        <section id="hero" className="hero">
+        <section id="hero" className="hero full-page">
           <video
             class="vh-100"
             src={video}
@@ -27,26 +27,38 @@ export default class Hero extends React.Component {
             onLoadStart={this.playMovie}
           />
           <div class="content">
-            <div class="d-flex align-items-center">
-              <div class="container d-flex justify-content-center text-center">
-                <div className="col d-block">
-                  <h1 class="varsity-text">
-                    WITH<span> MOKLETERS </span>COMES BLESSEDNESS
-                  </h1>
-                  <img
-                    src={logo}
-                    className="hero-logo"
-                    alt="logo"
-                    width="25%"
-                    height="25%"
-                  />
-                  <a href="#about">
-                    <i class="arrow fas fa-gem me-3" />
-                  </a>
-                </div>
-              </div>
+            <div className="row d-flex text-center justify-content-center">
+              <h1 class="varsity-text">
+                WITH<span> MOKLETERS </span>COMES BLESSEDNESS
+              </h1>
+              <img
+                src={logo}
+                className="hero-logo img-fluid"
+                alt="logo"
+                width="25%"
+                height="25%"
+              />
             </div>
           </div>
+          <a href="#about" class="arrow" type="button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="white"
+              class="bi bi-chevron-double-down"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
+          </a>
         </section>
       </>
     );
