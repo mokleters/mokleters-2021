@@ -56,18 +56,18 @@ export default class Hero extends React.Component {
                       </p>
 
                       <div class="btn-toolbar">
-                        <div class="btn-group">
+                        <div class="btn-group m-1">
                           {this.state.isPlay === false ? (
                             <>
-                              <button type="button" class="d-none d-md-block btn btn-danger m-3" onClick={() => this.setState({ isPlay: true })}>Play Now</button>
-                              <button type="button" class="d-md-none btn btn-danger m-3" data-bs-toggle="modal" data-bs-target="#modal">Play on Mobile</button>
+                              <button type="button" class="d-none d-md-block btn btn-danger" onClick={() => this.setState({ isPlay: true })}>Play Now</button>
+                              <button type="button" class="d-md-none btn btn-danger" data-bs-toggle="modal" data-bs-target="#modal">Play on Mobile</button>
                             </>
                           ) : (
-                            <button type="button" class="btn btn-danger m-3" onClick={() => this.setState({ isPlay: false })}>Stop Now</button>
+                            <button type="button" class="btn btn-danger" onClick={() => this.setState({ isPlay: false })}>Stop Now</button>
                           )}
                         </div>
-                        <div class="btn-group">
-                          <button href="#blog" class="btn btn-danger m-3">Learn More</button>
+                        <div class="btn-group m-1">
+                          <button href="#blog" class="btn btn-danger">Learn More</button>
                         </div>
                       </div>
                     </div>
@@ -84,7 +84,7 @@ export default class Hero extends React.Component {
               <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body vh-100">
+              <div class="modal-body vh-100 p-0">
                 <div className={this.state.isPlayOn_1}>
                 <model-viewer
                   bounds="tight"
