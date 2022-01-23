@@ -16,17 +16,6 @@ class Index extends React.Component {
   render() {
     return (
       <>
-        {/* <h1 className="b-example-divider mb-0">
-          <Link to="/links">Pages links</Link> |
-          <Link to="/olshop">Pages Olshop</Link> | 
-          <Link to="/checkout">Pages Olshop-detail</Link> | 
-          <a href="#hero">hero</a> | 
-          <a href="#about">about</a> | 
-          <a href="#bombi">bombi</a> | 
-          <a href="#organization">organization</a> | 
-          <a href="#blog">blog</a> | 
-          <a href="#footer">footer</a>
-        </h1> */}
         {/* <Navbar /> */}
         <Hero />
         <About />

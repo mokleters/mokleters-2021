@@ -93,18 +93,18 @@ function Navbar() {
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">
+                      <a class="nav-link" aria-current="page" href="#organization">
                         ORGANIZATIONS
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#olshop">
-                        SHOP
                       </a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" aria-current="page" href="#blog">
                         BLOG
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#olshop">
+                        SHOP
                       </a>
                     </li>
                     <li class="nav-item">

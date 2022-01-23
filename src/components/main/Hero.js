@@ -28,7 +28,7 @@ export default class Hero extends React.Component {
           />
           <div class="content">
             <div className="row d-flex text-center justify-content-center">
-              <h1 class="varsity-text">
+              <h1 class="varsity-text display-2">
                 WITH<span> MOKLETERS </span>COMES BLESSEDNESS
               </h1>
               <img

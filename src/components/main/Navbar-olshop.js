@@ -77,8 +77,8 @@ function Navbar() {
                 </div>
                 <div class="offcanvas-body">
                   <ul class="sidebar-nav justify-content-start">
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#hero">
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/">
                         HOME
                       </a>
                     </li>

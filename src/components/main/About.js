@@ -59,7 +59,7 @@ export default class About extends React.Component {
 
               <div class="content">
                 <div className="row d-flex text-center justify-content-center">
-                  <h1 class="varsity-text">
+                  <h1 class="varsity-text display-2">
                     ABOUT<span> MOKLETERS </span>
                   </h1>
                   <p class="text-center">
