@@ -37,8 +37,8 @@ export default class Hero extends React.Component {
                     auto-rotate
                     style={{ "background-color": "unset", width: "100%", height: "100%" }} />
                 ) : (
-                  <model-viewer
-                    poster={bombi_image}
+                  <img
+                    src={bombi_image}
                     style={{ "background-color": "unset", width: "100%", height: "100%" }} />
                 )}
 

@@ -8,20 +8,14 @@ export default class Blog extends React.Component {
   render() {
     return (
       <section id="blog">
-        {/* <h1  className="b-example-divider mb-0">Blog section</h1> */}
-        <div className="full-page bg-dark-cs text-white">
+        <div className="text-white py-7">
           <div class="jumbotron d-flex align-items-center min-vh-100">
             <div class="container-fluid">
               <div className="text-center pb-4">
                 <h5>Check Out Our</h5>
                 <div className="varsity-text text-red mb-5">ONLINE BLOG</div>
-                {/* <div className="varsity-text">ONLINE <span className="text-red">BLOG</span></div> */}
-                {/* <div class="row d-flex justify-content-center">
-                  <div class="border-bottom my-2 col-1"></div>
-                </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and standard dummy </p> */}
               </div>
-              <div className="row justify-content-center row-cols-md-4 row-cols-3">
+              <div className="row justify-content-center row-cols-md-4 row-cols">
                 <div className="hover col nopadding">
                   <div class="card bg-dark-cs border-0">
                       <a className="text-decoration-none text-white" href="#footer">
