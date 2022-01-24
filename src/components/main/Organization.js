@@ -26,8 +26,8 @@ const Carousel = () => (
       infinite={true}
       items={data.map((item, i) => (
         <div class="card-cstm" data-value={i}>
-          <div class="card-cstm-img">
-            <img src={dataImages[item.image]} alt="/" />
+          <div class="">
+            <img class="mx-auto d-block p-2" src={dataImages[item.image]} alt="/" width="150rem" height="200rem"/>
           </div>
           <div class="card-cstm-body text-center">
             <h3>
@@ -52,7 +52,7 @@ const Carousel = () => (
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <img class="modal-logo" src={dataImages[item.image]} alt=""></img>
+              <img class="mx-auto d-block mb-3" width="200rem" src={dataImages[item.image]} alt="" />
               <h1>{item.name}</h1>
               <div dangerouslySetInnerHTML={{ __html: item.modal.details }}></div>
             </div>
